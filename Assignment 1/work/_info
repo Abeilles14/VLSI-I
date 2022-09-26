@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402
+vStudentFSM
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1664229039
+!i10b 1
+!s100 0h7SzSFKV^aW1<<lB6fm>3
+ImI82SMkhTMA@]776<KA>23
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 StudentFSM_sv_unit
+S1
+Z3 dC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1
+w1664228633
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM.sv
+L0 6
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1664229039.589000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM.sv|
+!i113 1
+Z5 o-work work -sv
+n@student@f@s@m
+vStudentFSM_tb
+R0
+R1
+!i10b 1
+!s100 PN5:dmG=FG<NDWOMczoPR2
+IP[TVH2zL<YW_=jXnBRL0n0
+R2
+!s105 StudentFSM_tb_sv_unit
+S1
+R3
+w1664229028
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM_tb.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM_tb.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1664229039.512000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM_tb.sv|
+!i113 1
+R5
+n@student@f@s@m_tb

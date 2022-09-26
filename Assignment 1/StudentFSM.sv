@@ -9,7 +9,7 @@ module StudentFSM (
 	input logic alarm,
 	input logic bus,
 	input logic hungry,
-	input logic class,
+	input logic lecture,
 	input logic tired,
 	input logic homework,
 	input logic design_work,
@@ -21,38 +21,35 @@ module StudentFSM (
 	typedef enum logic [4:0] {SLEEP, EAT, BUS, LECTURE, TIM_HORTONS, STUDY, DESIGN_TEAM, NETFLIX, GYM, SOCIALIZE} enumstate;
 	enumstate state, nextstate;
 
-	logic hw_done;
+// countdown module for homework assignments
+	// logic hw_done;
+	// logic
 
 	assign state_out = state;
 
 
-// countdown module for homework assignments
-//
-
 	always_ff @(posedge clk) begin
-		if (rst)
+		if (rst) begin
 			state <= SLEEP;
+		end
 		else
 			state <= nextstate;
 	end
 		
 	always_comb begin
-
 		case (state)
 			SLEEP: begin
 				if (alarm && bus)
 					nextstate <= BUS;
-				end
 				else if (alarm && hungry)
 					nextstate <= EAT;
 			end
 			EAT: begin
 				if (bus)
 					nextstate <= BUS;
-				end
 			end
 			BUS: begin
-				if (class)
+				if (lecture)
 					nextstate <= LECTURE;
 				else if (homework)
 					nextstate <= TIM_HORTONS;
@@ -86,9 +83,11 @@ module StudentFSM (
 			SOCIALIZE: begin
 				if (tired)
 					nextstate <= SLEEP;
-			default: nextstate <= state;
+			end
+			default: begin
+				nextstate <= SLEEP;
+			end
 		endcase
-
 	end
 endmodule
 
