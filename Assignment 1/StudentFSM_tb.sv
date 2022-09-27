@@ -7,7 +7,8 @@ module StudentFSM_tb;
 	logic [4:0] state_out;
 	logic clk, rst;
 	logic alarm, bus, hungry, lecture, tired, homework, design_work, brain_no_work, energy;
-	
+	logic [3:0] num_assignments, num_lectures;
+
 	// Instantiate the module to test
 	StudentFSM DUT(
 		.clk(clk),
@@ -21,18 +22,16 @@ module StudentFSM_tb;
 		.design_work(design_work),
 		.brain_no_work(brain_no_work),
 		.energy(energy),
+		.num_assignments(num_assignments),
+		.num_lectures(num_lectures),
 		.state_out(state_out)
 	);
 		
-	// clk
-	// always begin
-	// 	#10;
-	// 	clk = ~clk;
-	// end
-
 	// Initialize signals
 	initial begin
 		{clk, rst} = 2'b01;
+		num_assignments = 3'b100;	// 4 assignments
+		num_lectures = 3'b010;		// 2 classes
 		{alarm, bus, tired, design_work, brain_no_work, energy, hungry, lecture, homework} = 9'b0;
 
     	forever
