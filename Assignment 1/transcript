@@ -1,55 +1,816 @@
-vsim -gui work.StudentFSM_tb
+compile -all
+# wrong # args: should be "compile w cmd ..."
+compile all
+# wrong # args: should be "compile w cmd ..."
+compile --all
+# wrong # args: should be "compile w cmd ..."
+# Compile of DNSLookup_tb.sv failed with 1 errors.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv failed with 1 errors.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv failed with 3 errors.
+# 6 compiles, 3 failed with 5 errors.
+# Compile of DNSLookup_tb.sv failed with 1 errors.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv failed with 1 errors.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv failed with 3 errors.
+# 6 compiles, 3 failed with 5 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv failed with 1 errors.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv failed with 3 errors.
+# 6 compiles, 2 failed with 4 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.DNSLookup_tb
 # vsim -gui 
-# Start time: 11:20:16 on Sep 27,2022
+# Start time: 14:12:54 on Sep 28,2022
 # Loading sv_std.std
-# Loading work.StudentFSM_tb
-# Loading work.StudentFSM
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
 # Loading work.counter
+# Loading work.decoder38
+# ** Error: (vsim-3033) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(47): Instantiation of 'decoder416' failed. The design unit was not found.
+# 
+#         Region: /DNSLookup_tb/DUT
+#         Searched libraries:
+#             C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/work
+# Error loading design
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.DNSLookup_tb
+# vsim 
+# Start time: 14:13:33 on Sep 28,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(47): [PCDPC] - Port size (4) does not match connection size (8) for port 'in'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv(1).
+# 
+#         Region: /DNSLookup_tb/DUT/mapIPServer
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.DNSLookup_tb
+# vsim 
+# Start time: 14:15:38 on Sep 28,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+add wave -position end sim:/DNSLookup_tb/DUT/*
 run
-add wave -position end sim:/StudentFSM_tb/DUT/*
 run
-# Break key hit
 restart -f
 # Loading sv_std.std
-# Loading work.StudentFSM_tb
-# Loading work.StudentFSM
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
 # Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
 run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# Compile of StudentFSM_tb.sv was successful.
-# Compile of StudentFSM.sv failed with 8 errors.
+# Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
-# 3 compiles, 1 failed with 8 errors.
-# Compile of StudentFSM_tb.sv was successful.
-# Compile of StudentFSM.sv failed with 1 errors.
-# Compile of counter.sv was successful.
-# 3 compiles, 1 failed with 1 error.
-# Compile of StudentFSM_tb.sv was successful.
-# Compile of StudentFSM.sv was successful.
-# Compile of counter.sv was successful.
-# 3 compiles, 0 failed with no errors.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
 restart -f
 # Loading sv_std.std
-# Loading work.StudentFSM_tb
-# Loading work.StudentFSM
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
 # Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+# Warning in wave window restart: (vish-4014) No objects found matching '/DNSLookup_tb/DUT/browser_cached'. 
 run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# Compile of StudentFSM_tb.sv was successful.
-# Compile of StudentFSM.sv was successful.
+# Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
-# 3 compiles, 0 failed with no errors.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
 restart -f
 # Loading sv_std.std
-# Loading work.StudentFSM_tb
-# Loading work.StudentFSM
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
 # Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
 run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv failed with 11 errors.
+# 6 compiles, 1 failed with 11 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv failed with 1 errors.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+# Warning in wave window restart: (vish-4014) No objects found matching '/DNSLookup_tb/DUT/webpage'. 
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder38.sv was successful.
+# Compile of decoder38_tb.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.decoder38
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv failed with 1 errors.
+# Compile of DNSLookup.sv failed with 1 errors.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv failed with 1 errors.
+# 7 compiles, 3 failed with 3 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv failed with 1 errors.
+# Compile of DNSLookup.sv failed with 1 errors.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv failed with 1 errors.
+# 7 compiles, 3 failed with 3 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv failed with 1 errors.
+# Compile of DNSLookup.sv failed with 1 errors.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv failed with 1 errors.
+# 7 compiles, 3 failed with 3 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv failed with 1 errors.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv failed with 1 errors.
+# 7 compiles, 2 failed with 2 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv failed with 1 errors.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv failed with 1 errors.
+# 7 compiles, 2 failed with 2 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(46): Port 'data_in' not found in the connected module (1st connection).
+# 
+#         Region: /DNSLookup_tb/DUT/WebAddrToTLDAddr
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(46): Port 'data_out' not found in the connected module (2nd connection).
+# 
+#         Region: /DNSLookup_tb/DUT/WebAddrToTLDAddr
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(52): Port 'data_in' not found in the connected module (1st connection).
+# 
+#         Region: /DNSLookup_tb/DUT/TLDAddrToDomainIP
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(52): Port 'data_out' not found in the connected module (2nd connection).
+# 
+#         Region: /DNSLookup_tb/DUT/TLDAddrToDomainIP
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(58): Port 'data_in' not found in the connected module (1st connection).
+# 
+#         Region: /DNSLookup_tb/DUT/DomainIPToWebIP
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(58): Port 'data_out' not found in the connected module (2nd connection).
+# 
+#         Region: /DNSLookup_tb/DUT/DomainIPToWebIP
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(65): Port 'data_in' not found in the connected module (1st connection).
+# 
+#         Region: /DNSLookup_tb/DUT/WebIPToWebdata
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(65): Port 'data_out' not found in the connected module (2nd connection).
+# 
+#         Region: /DNSLookup_tb/DUT/WebIPToWebdata
+vsim -gui work.DNSLookup_tb
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(46): Port 'data_in' not found in the connected module (1st connection).
+# 
+#         Region: /DNSLookup_tb/DUT/WebAddrToTLDAddr
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(46): Port 'data_out' not found in the connected module (2nd connection).
+# 
+#         Region: /DNSLookup_tb/DUT/WebAddrToTLDAddr
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(52): Port 'data_in' not found in the connected module (1st connection).
+# 
+#         Region: /DNSLookup_tb/DUT/TLDAddrToDomainIP
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(52): Port 'data_out' not found in the connected module (2nd connection).
+# 
+#         Region: /DNSLookup_tb/DUT/TLDAddrToDomainIP
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(58): Port 'data_in' not found in the connected module (1st connection).
+# 
+#         Region: /DNSLookup_tb/DUT/DomainIPToWebIP
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(58): Port 'data_out' not found in the connected module (2nd connection).
+# 
+#         Region: /DNSLookup_tb/DUT/DomainIPToWebIP
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(65): Port 'data_in' not found in the connected module (1st connection).
+# 
+#         Region: /DNSLookup_tb/DUT/WebIPToWebdata
+# ** Error: (vsim-3063) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(65): Port 'data_out' not found in the connected module (2nd connection).
+# 
+#         Region: /DNSLookup_tb/DUT/WebIPToWebdata
+# Error loading design
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.DNSLookup_tb
+# vsim 
+# Start time: 17:02:13 on Sep 28,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(65): [PCDPC] - Port size (4) does not match connection size (8) for port 'in'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv(2).
+# 
+#         Region: /DNSLookup_tb/DUT/WebIPToWebdata
+# ** Warning: (vsim-3839) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(154): Variable '/DNSLookup_tb/DUT/webpage_idx', driven via a port connection, is multiply driven. See C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(65).
+# 
+#         Region: /DNSLookup_tb/DUT
+# ** Warning: (vsim-3839) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(101): Variable '/DNSLookup_tb/DUT/web_ip', driven via a port connection, is multiply driven. See C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(58).
+# 
+#         Region: /DNSLookup_tb/DUT
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv failed with 1 errors.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.DNSLookup_tb
+# vsim 
+# Start time: 17:12:01 on Sep 28,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+add wave -position end sim:/DNSLookup_tb/DUT/*
+run
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv failed with 4 errors.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 1 failed with 4 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position end sim:/DNSLookup_tb/DUT/*
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+# Warning in wave window restart: (vish-4014) No objects found matching '/DNSLookup_tb/DUT/webpage_idx_out'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/DNSLookup_tb/DUT/tld_addr_out'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/DNSLookup_tb/DUT/domain_ip_out'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/DNSLookup_tb/DUT/web_ip_out'. 
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.DNSLookup_tb
+# vsim 
+# Start time: 17:45:13 on Sep 28,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+add wave -position end sim:/DNSLookup_tb/DUT/*
+run
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv failed with 4 errors.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 1 failed with 4 errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.DNSLookup_tb
+# vsim 
+# Start time: 14:26:30 on Sep 29,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(38): [PCDPC] - Port size (8) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv(7).
+# 
+#         Region: /DNSLookup_tb/DUT/WebAddrToTLDAddr
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DomainIP.sv(7).
+# 
+#         Region: /DNSLookup_tb/DUT/TLDAddrToDomainIP
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(50): [PCDPC] - Port size (8) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv(7).
+# 
+#         Region: /DNSLookup_tb/DUT/DomainIPToWebIP
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(57): [PCDPC] - Port size (16) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv(3).
+# 
+#         Region: /DNSLookup_tb/DUT/WebIPToWebdata
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(38): [PCDPC] - Port size (8) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv(7).
+# 
+#         Region: /DNSLookup_tb/DUT/WebAddrToTLDAddr
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DomainIP.sv(7).
+# 
+#         Region: /DNSLookup_tb/DUT/TLDAddrToDomainIP
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(50): [PCDPC] - Port size (8) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv(7).
+# 
+#         Region: /DNSLookup_tb/DUT/DomainIPToWebIP
+# ** Warning: (vsim-3015) C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv(57): [PCDPC] - Port size (16) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv(3).
+# 
+#         Region: /DNSLookup_tb/DUT/WebIPToWebdata
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.DNSLookup_tb
+# vsim 
+# Start time: 14:34:10 on Sep 29,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+add wave -position end sim:/DNSLookup_tb/DUT/*
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/wave.do}

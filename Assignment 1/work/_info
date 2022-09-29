@@ -7,10 +7,10 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402
+dC:/WINDOWS/system32
 vcounter
 Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
-Z1 !s110 1664307590
+Z1 !s110 1664487658
 !i10b 1
 !s100 6QUlO@A8a?HAVzdBV6kUW3
 IPY;>G053PPl0SjMoM6FQY3
@@ -26,56 +26,243 @@ Z4 OV;L;10.3c;59
 r1
 !s85 0
 31
-!s108 1664307590.663000
+!s108 1664487658.282000
 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/counter.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/counter.sv|
 !i113 1
 Z5 o-work work -sv
-vStudentFSM
+vdecoder38
 R0
-R1
+!s110 1664401054
 !i10b 1
-!s100 @^`e<382UOUG[^:Pz55N10
-IU6kl`^cFlM:RO[6lg3GgX3
+!s100 21UE]2d4bFb1eiTzn3]PP0
+InNn45B<BcUC<9c_A[8DVf2
 R2
-!s105 StudentFSM_sv_unit
+Z6 !s105 decoder38_sv_unit
 S1
 R3
-w1664307585
-8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM.sv
-FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM.sv
+w1664399400
+Z7 8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder38.sv
+Z8 FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder38.sv
 L0 6
 R4
 r1
 !s85 0
 31
-!s108 1664307590.560000
-!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM.sv|
+!s108 1664401054.353000
+Z9 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder38.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder38.sv|
 !i113 1
 R5
-n@student@f@s@m
-vStudentFSM_tb
+vdecoder38_tb
+R0
+Z11 !s110 1664402231
+!i10b 1
+!s100 IFn:mJE0Og2D]YS_ng]Rg2
+Ii^:`CN=kz<MLZ`3LQ[KXF0
+R2
+!s105 decoder38_tb_sv_unit
+S1
+R3
+w1664390845
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder38_tb.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder38_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1664402231.596000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder38_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder38_tb.sv|
+!i113 1
+R5
+vdecoder3to8
+R0
+R11
+!i10b 1
+!s100 <R:=U<`5[:DcZ4I]6A0QX0
+IG5G>7R4`Bh_IzBn989:7[0
+R2
+R6
+S1
+R3
+w1664402151
+R7
+R8
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1664402231.479000
+R9
+R10
+!i113 1
+R5
+vdecoder416
 R0
 R1
 !i10b 1
-!s100 gLS5_YGmo^5@8Bg6BEKKR2
-I2Z7[22XgVJQUDPkIF<OJc0
+!s100 cZl8P:=Vmmf2bVYMc3M;<1
+I53YgXk8[X5UZiS5?>k<Ak0
 R2
-!s105 StudentFSM_tb_sv_unit
+Z12 !s105 decoder416_sv_unit
 S1
 R3
-w1664307475
-8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM_tb.sv
-FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM_tb.sv
+w1664409214
+Z13 8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv
+Z14 FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1664487658.486000
+Z15 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv|
+Z16 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv|
+!i113 1
+R5
+vdecoder4166
+R0
+!s110 1664399561
+!i10b 1
+!s100 Z^l>>TfPI==AC1CfPV^PV1
+IkV0dbfoXD]gX=WdL>JmLM0
+R2
+R12
+S1
+R3
+w1664395760
+R13
+R14
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1664399561.831000
+R15
+R16
+!i113 1
+R5
+vDNSLookup
+R0
+R1
+!i10b 1
+!s100 ^eYk_jm;aa6H0f[h8gN>O2
+IKH3bGY_NcM:n3O8a0J=QW1
+R2
+!s105 DNSLookup_sv_unit
+S1
+R3
+w1664487232
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1664487658.687000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv|
+!i113 1
+R5
+n@d@n@s@lookup
+vDNSLookup_tb
+R0
+R1
+!i10b 1
+!s100 `KZTAzA53;fmbORj>o>ze1
+I>`Vc;lGCc@^z2z:ojQ2a`3
+R2
+!s105 DNSLookup_tb_sv_unit
+S1
+R3
+w1664486435
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup_tb.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup_tb.sv
 L0 5
 R4
 r1
 !s85 0
 31
-!s108 1664307590.352000
-!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/StudentFSM_tb.sv|
+!s108 1664487658.150000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup_tb.sv|
 !i113 1
 R5
-n@student@f@s@m_tb
+n@d@n@s@lookup_tb
+vDomainIP
+R0
+R1
+!i10b 1
+!s100 B8@hXHiKCNU:VP^`LnBDY1
+Ik[c_@^LiX>;W8NY6zzcXi2
+R2
+!s105 DomainIP_sv_unit
+S1
+R3
+w1664487653
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DomainIP.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DomainIP.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1664487658.800000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DomainIP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DomainIP.sv|
+!i113 1
+R5
+n@domain@i@p
+vTLDAddr
+R0
+R1
+!i10b 1
+!s100 4lEKYWg;ji?gO]mHEaQzZ0
+IV[zAOIRnLBi4:QDmeOA2g2
+R2
+!s105 TLDAddr_sv_unit
+S1
+R3
+w1664409483
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1664487658.917000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv|
+!i113 1
+R5
+n@t@l@d@addr
+vWebIP
+R0
+!s110 1664487659
+!i10b 1
+!s100 9X_z>LifQmhaTNmU907K_3
+I^bU4>Y35_=Cm30XBN78lW1
+R2
+!s105 WebIP_sv_unit
+S1
+R3
+w1664409587
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1664487659.044000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv|
+!i113 1
+R5
+n@web@i@p
