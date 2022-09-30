@@ -26,7 +26,7 @@ module DNSLookup_tb();
 	// Initialize signals
 	initial begin
 		{clk, rst} = 2'b01;
-		client_req <= 1'b0;
+		client_req = 1'b0;
 
     	forever
     	begin

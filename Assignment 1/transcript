@@ -814,3 +814,32 @@ restart -f
 # Loading work.decoder416
 run
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/wave.do}
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 

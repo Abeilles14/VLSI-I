@@ -10,7 +10,7 @@ cModel Technology
 dC:/WINDOWS/system32
 vcounter
 Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
-Z1 !s110 1664487658
+Z1 !s110 1664508200
 !i10b 1
 !s100 6QUlO@A8a?HAVzdBV6kUW3
 IPY;>G053PPl0SjMoM6FQY3
@@ -26,7 +26,7 @@ Z4 OV;L;10.3c;59
 r1
 !s85 0
 31
-!s108 1664487658.282000
+!s108 1664508200.371000
 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/counter.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/counter.sv|
 !i113 1
@@ -118,7 +118,7 @@ R4
 r1
 !s85 0
 31
-!s108 1664487658.486000
+!s108 1664508200.441000
 Z15 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv|
 Z16 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/decoder416.sv|
 !i113 1
@@ -156,7 +156,7 @@ R2
 !s105 DNSLookup_sv_unit
 S1
 R3
-w1664487232
+w1664503391
 8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv
 FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv
 L0 6
@@ -164,7 +164,7 @@ R4
 r1
 !s85 0
 31
-!s108 1664487658.687000
+!s108 1664508200.518000
 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv|
 !i113 1
@@ -174,13 +174,13 @@ vDNSLookup_tb
 R0
 R1
 !i10b 1
-!s100 `KZTAzA53;fmbORj>o>ze1
-I>`Vc;lGCc@^z2z:ojQ2a`3
+!s100 i1JO;>HY5OAhHMf79GV9F3
+I]5WT0J5_f^6GQg3Ooz64Z2
 R2
 !s105 DNSLookup_tb_sv_unit
 S1
 R3
-w1664486435
+w1664507067
 8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup_tb.sv
 FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup_tb.sv
 L0 5
@@ -188,7 +188,7 @@ R4
 r1
 !s85 0
 31
-!s108 1664487658.150000
+!s108 1664508200.288000
 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup_tb.sv|
 !i113 1
@@ -212,7 +212,7 @@ R4
 r1
 !s85 0
 31
-!s108 1664487658.800000
+!s108 1664508200.592000
 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DomainIP.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DomainIP.sv|
 !i113 1
@@ -236,7 +236,7 @@ R4
 r1
 !s85 0
 31
-!s108 1664487658.917000
+!s108 1664508200.666000
 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv|
 !i113 1
@@ -244,15 +244,15 @@ R5
 n@t@l@d@addr
 vWebIP
 R0
-!s110 1664487659
+R1
 !i10b 1
-!s100 9X_z>LifQmhaTNmU907K_3
-I^bU4>Y35_=Cm30XBN78lW1
+!s100 m4VA05d5XhI6Jh?=XX@>R0
+I_oFQ77QZzLIh_fJ54LGfR3
 R2
 !s105 WebIP_sv_unit
 S1
 R3
-w1664409587
+w1664507955
 8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv
 FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv
 L0 5
@@ -260,7 +260,7 @@ R4
 r1
 !s85 0
 31
-!s108 1664487659.044000
+!s108 1664508200.737000
 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/WebIP.sv|
 !i113 1

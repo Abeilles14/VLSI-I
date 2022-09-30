@@ -1,3 +1,8 @@
+/* Name:
+* Student ID: 12521589
+* Purpose: A 4 to 16 decoder module to simulate web data to ip address mapping
+*/
+
 module decoder416 (
    input logic [3:0] in,
    output logic [15:0] out,

@@ -7,5 +7,5 @@ module WebIP (
     output logic [7:0] out,
     input logic en
 );
-	assign out = en ? {in[7:4]<<2, ^(in[3:0]>>2)} : 8'bx;
+	assign out = en ? {in[7:4]<<2, (in[3:0]>>2)^4'b1111} : 8'bx;
 endmodule

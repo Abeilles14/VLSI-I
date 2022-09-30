@@ -70,7 +70,7 @@ module DNSLookup (
 		
 	always_comb begin
 		case (state)
-			// initial state, if client request arrives, start counter and check/decode server for cached addr
+			// initial state, if client request arrives, start counter
 			IDLE: begin
 				{count_rst, count_en} <= 2'b10;
 
