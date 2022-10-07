@@ -843,3 +843,6 @@ run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/wave.do}
+# End time: 00:58:44 on Sep 30,2022, Elapsed time: 10:24:34
+# Errors: 0, Warnings: 0

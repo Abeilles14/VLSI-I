@@ -23,13 +23,13 @@ add wave -noupdate /DNSLookup_tb/DUT/ip_resolved
 add wave -noupdate /DNSLookup_tb/DUT/client_res
 add wave -noupdate /DNSLookup_tb/DUT/state
 add wave -noupdate /DNSLookup_tb/DUT/nextstate
-add wave -noupdate /DNSLookup_tb/DUT/count_en
+add wave -noupdate -radix unsigned /DNSLookup_tb/DUT/count_en
 add wave -noupdate /DNSLookup_tb/DUT/count_rst
-add wave -noupdate -radix decimal /DNSLookup_tb/DUT/count
+add wave -noupdate -radix unsigned /DNSLookup_tb/DUT/count
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {347232 ps} 0}
+WaveRestoreCursors {{Cursor 1} {322592 ps} 0}
 quietly wave cursor active 1
-configure wave -namecolwidth 150
+configure wave -namecolwidth 116
 configure wave -valuecolwidth 100
 configure wave -justifyvalue left
 configure wave -signalnamewidth 1
@@ -43,4 +43,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {174077 ps} {256795 ps}
+WaveRestoreZoom {112859 ps} {244321 ps}
