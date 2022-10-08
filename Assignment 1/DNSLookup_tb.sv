@@ -45,21 +45,21 @@ module DNSLookup_tb();
 		// query first web addr
 		client_req = 1'b1;
 		web_addr = 8'b1001_1010;
-		#5;
+		#15;
 		client_req = 1'b0;
 		#140;
 
 		// test that first web addr is cached by querying again
 		client_req = 1'b1;
 		web_addr = 8'b1001_1010;
-		#5;
+		#15;
 		client_req = 1'b0;
 		#80
 
 		// query second web addr
 		client_req = 1'b1;
 		web_addr = 8'b0011_1110;
-		#5;
+		#15;
 		client_req = 1'b0;
 		#140;
 	end
