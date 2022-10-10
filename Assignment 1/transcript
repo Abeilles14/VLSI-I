@@ -1,3 +1,4 @@
+# Load canceled
 # Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
 # Compile of decoder416.sv was successful.
@@ -6,9 +7,25 @@
 # Compile of TLDAddr.sv was successful.
 # Compile of WebIP.sv was successful.
 # 7 compiles, 0 failed with no errors.
-vsim -gui work.DNSLookup_tb
-# vsim -gui 
-# Start time: 00:09:58 on Oct 07,2022
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv failed with 1 errors.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -sdftyp {/DUT=C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_map.sdf} -sdfnoerror work.DNSLookup_tb
+# vsim 
+# Start time: 10:47:04 on Oct 09,2022
 # Loading sv_std.std
 # Loading work.DNSLookup_tb
 # Loading work.DNSLookup
@@ -17,14 +34,41 @@ vsim -gui work.DNSLookup_tb
 # Loading work.DomainIP
 # Loading work.WebIP
 # Loading work.decoder416
-# Trace back: Error QStructure::sort: invalid command name ""
-#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
-#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
-#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
-#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
-#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
-#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+# SDF 10.3c Compiler 2014.09 Sep 20 2014
+# 
+# usage: sdfcom [ options ] source-file output-file
+# 
+# Options:
+# 
+#   -mindelays          Use minimum timing from min:typ:max expressions
+# 
+#   -typdelays          Use typical timing from min:typ:max expressions (default)
+# 
+#   -maxdelays          Use maximum timing from min:typ:max expressions
+# 
+#   -delayscale <val>   Scale delays by the specified value
+# 
+#   -nocompress         Don't compress the resulting output file
+# 
+#   -suppress <msg(s)>  Suppress comma-separed list of error/warning messages
+# 
+# ** Fatal: SDF files require Altera primitive library
+#    Time: 0 ps  Iteration: 0  Instance: /DNSLookup_tb File: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup_tb.sv
+# FATAL ERROR while loading design
+# Error loading design
+vsim -gui -sdfnoerror work.DNSLookup_tb
+# vsim 
+# Start time: 10:47:22 on Oct 09,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
 add wave -position end sim:/DNSLookup_tb/DUT/*
+run
 run
 # Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
@@ -43,6 +87,9 @@ restart -f
 # Loading work.DomainIP
 # Loading work.WebIP
 # Loading work.decoder416
+run
+run
+run
 run
 # Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
@@ -73,14 +120,8 @@ run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
+run
+run
 run
 # Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
@@ -103,115 +144,9 @@ run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
 run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
 run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-vsim -gui work.DNSLookup_tb
-# vsim 
-# Start time: 11:19:47 on Oct 07,2022
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-add wave -position end sim:/DNSLookup_tb/DUT/*
 run
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-vsim -gui work.DNSLookup_tb
-# vsim 
-# Start time: 11:45:42 on Oct 07,2022
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-add wave -position end sim:/DNSLookup_tb/DUT/*
 run
 # Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
@@ -224,119 +159,11 @@ run
 # Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
 # Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
+# Compile of DNSLookup.sv failed with 2 errors.
 # Compile of DomainIP.sv was successful.
 # Compile of TLDAddr.sv was successful.
 # Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui work.DNSLookup_tb
-# vsim 
-# Start time: 13:35:42 on Oct 07,2022
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-add wave -position end sim:/DNSLookup_tb/DUT/*
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui work.DNSLookup_tb
-# vsim 
-# Start time: 13:49:47 on Oct 07,2022
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-add wave -position end sim:/DNSLookup_tb/DUT/*
-run
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui work.DNSLookup_tb
-# vsim 
-# Start time: 14:49:56 on Oct 07,2022
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-add wave -position end sim:/DNSLookup_tb/DUT/*
-run
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv failed with 1 errors.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 1 failed with 1 error.
+# 7 compiles, 1 failed with 2 errors.
 # Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
 # Compile of decoder416.sv was successful.
@@ -358,153 +185,7 @@ run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
 run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of DNSLookup_tb.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of decoder416.sv was successful.
-# Compile of DNSLookup.sv was successful.
-# Compile of DomainIP.sv was successful.
-# Compile of TLDAddr.sv was successful.
-# Compile of WebIP.sv was successful.
-# 7 compiles, 0 failed with no errors.
-restart -f
-# Loading sv_std.std
-# Loading work.DNSLookup_tb
-# Loading work.DNSLookup
-# Loading work.counter
-# Loading work.TLDAddr
-# Loading work.DomainIP
-# Loading work.WebIP
-# Loading work.decoder416
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
 # Compile of DNSLookup_tb.sv was successful.
 # Compile of counter.sv was successful.
 # Compile of decoder416.sv was successful.

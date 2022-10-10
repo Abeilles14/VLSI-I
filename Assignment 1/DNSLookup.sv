@@ -60,11 +60,16 @@ module DNSLookup (
 		.en(query_data)
 	);
 
+	// assign out signals
+	assign tld_addr_out = query_tld ? tld_addr : 8'bx;
+	assign domain_ip_out = query_domain ? domain_ip : 8'bx;
+	assign web_ip_out = query_ip ? web_ip : 8'bx;
+	assign webpage_idx_out = (query_data && state >= SERVER_RES) ? webpage_idx : 16'bx;
+
 	// state transitions
 	always_ff @(posedge clk) begin
-		if (rst) begin
+		if (rst)
 			state <= IDLE;
-		end
 		else
 			state <= nextstate;
 	end
@@ -87,6 +92,48 @@ module DNSLookup (
 				exec_time <= 8'bx;
 		end
 	end
+
+	always_ff @(posedge clk) begin
+		if (rst) begin
+			ip_resolved <= 1'b0;
+			web_ip_in <= 4'bx;
+			cached_ip_map <= 16'bx;
+		end
+		else
+			if (state == RESOLVER_RES)
+				ip_resolved <= 1'b1;
+			else if (state == CLIENT_RESOLVER_REQ && cached_ip_map[7:0] != web_addr)
+				ip_resolved <= 1'b0;
+			else if (state == CLIENT_SERVER_REQ)
+				// cache new ip if found
+				web_ip_in <= ip_resolved ? web_ip_out[3:0] : cached_ip_map[11:8];
+			else if (state == CACHING)
+				// cache new ip if found
+				cached_ip_map <= ip_resolved ? {web_ip_out, web_addr} : cached_ip_map;
+	end
+
+	// always_ff @(posedge clk) begin
+	// 	if (rst)
+	// 		cached_ip_map <= 16'bx;
+	// 	else
+	// 		if (state == CACHING)
+	// 			// cache new ip if found
+	// 			cached_ip_map <= ip_resolved ? {web_ip_out, web_addr} : cached_ip_map;
+	// end
+
+
+	// always_ff @(posedge clk) begin
+	// 	if (rst)
+	// 		web_ip_in <= 4'bx;
+	// 	else
+	// 		if (state == CACHING)
+	// 			// cache new ip if found
+	// 			cached_ip_map <= ip_resolved ? {web_ip_out, web_addr} : cached_ip_map;
+	// 		else if (state == CLIENT_SERVER_REQ)
+	// 			// cache new ip if found
+	// 			web_ip_in <= ip_resolved ? web_ip_out[3:0] : cached_ip_map[11:8];
+	// end
+
 		
 	always_comb begin
 		// reset all outputs to init to cover all combs
@@ -95,212 +142,94 @@ module DNSLookup (
 		query_domain = 0;
 		query_data = 0;
 		client_res = 0;
-
-		web_ip_in = 4'bx;
+		nextstate = IDLE;
 
 
 		case (state)
 			// initial state, if client request arrives, start counter
 			IDLE: begin
+				{query_tld, query_domain, query_ip, query_data} = 4'b0000;
 				if (client_req) begin
 					nextstate = CLIENT_START;
 				end
-
-				//signals
-				tld_addr_out = 8'bx;
-				domain_ip_out = 8'bx;
-				web_ip_out = 8'bx;
-				webpage_idx_out = 16'bx;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = 1'b0;
 			end
 			// client start request process
 			CLIENT_START: begin
+				{query_tld, query_domain, query_ip, query_data} = 4'b0000;
 				// start timer
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
-
 				nextstate = CLIENT_RESOLVER_REQ;
 			end
 			// client query is sent to DNS recursive resolver
 			CLIENT_RESOLVER_REQ: begin
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b0000;
 				// if web addr is mapped to cached ip, skip to browser req
 				if (cached_ip_map[7:0] == web_addr) begin
 					nextstate = CLIENT_SERVER_REQ;
 				end
 				else
 					nextstate = RESOLVER_ROOT_REQ;
-
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
 			end
 			// resolver queries a DNS root nameserver
 			RESOLVER_ROOT_REQ: begin
 				// set addr to decode to find TLD DNS server addr in root query
-				query_tld = 1'b1;
-				tld_addr_out = tld_addr;
-
-				//signals
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1000;
 				nextstate = ROOT_RES;
 			end
 			//  root server responds to resolver with TLD DNS server addr (.com)
 			ROOT_RES: begin
 				// map/decode the web addr to find the TLD DNS server addr
-				// query_tld = 1'b0;
-
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1000;
 				nextstate = RESOLVER_TLD_REQ;
 			end
 			// resolver makes a request to the TLD (.com)
 			RESOLVER_TLD_REQ: begin
 				// set tld addr to find domain nameserver ip addr in query resolver
-				query_domain = 1'b1;
-				domain_ip_out = domain_ip;
-
-				//signals
-				tld_addr_out = tld_addr_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1100;
 				nextstate = TLD_RES;
 			end
 			// TLD server responds with IP addr
 			TLD_RES: begin
 				//map/decode the tld addr to find the domain nameserver IP addr
-				// query_domain = 1'b0;
-
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1100;
 				nextstate = RESOLVER_DOMAIN_REQ;
 			end
 			// resolver sends query to domain's nameserver
 			RESOLVER_DOMAIN_REQ: begin
 				// set domain ip to find web ip in query resolver
-				query_ip = 1'b1;
-				web_ip_out = web_ip;
-
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1110;
 				nextstate = DOMAIN_RES;
 			end
 			// domain name server returns IP address for web addr to the resolver
 			DOMAIN_RES: begin
-				// query_ip = 1'b0;
-
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1110;
 				nextstate = RESOLVER_RES;
 			end
 			// DNS resolver responds to web browser with IP addr of domain requested
 			RESOLVER_RES: begin
-				ip_resolved = 1'b1;
-
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1110;
 				nextstate = CLIENT_SERVER_REQ;
 			end
 			// browser makes an HTTP req to IP addr
 			CLIENT_SERVER_REQ: begin
-				query_data = 1'b1;
-				web_ip_in = ip_resolved ? web_ip_out[3:0] : cached_ip_map[11:8];
-				webpage_idx_out = webpage_idx;
-
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1111;
+				// web_ip_in = ip_resolved ? web_ip_out[3:0] : cached_ip_map[11:8];
 				nextstate = SERVER_RES;
 			end
 			// server at that IP addr returns webpage to be redered
 			SERVER_RES: begin
-				// query_data = 1'b0;
-
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				cached_ip_map = cached_ip_map;
-				ip_resolved = ip_resolved;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1111;
 				nextstate = CACHING;
 			end
 			// cache most recent ip and encode
 			CACHING: begin
-				// cache new ip if found
-				cached_ip_map = ip_resolved ? {web_ip_out, web_addr} : cached_ip_map;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b1111;
 				// client done request
 				client_res = 1'b1;
-				//signals
-				tld_addr_out = tld_addr_out;
-				domain_ip_out = domain_ip_out;
-				web_ip_out = web_ip_out;
-				webpage_idx_out = webpage_idx_out;
-				ip_resolved = ip_resolved;
 
 				nextstate = IDLE;
 			end
 			default: begin
-				tld_addr_out = 8'bx;
-				domain_ip_out = 8'bx;
-				web_ip_out = 8'bx;
-				web_ip_in = 4'bx;
-				webpage_idx_out = 16'bx;
-				cached_ip_map = 16'bx;
-				ip_resolved = 1'bx;
-
+				{query_tld, query_domain, query_ip, query_data} = 4'b0000;
 				nextstate = IDLE;
 			end
 		endcase

@@ -27,7 +27,7 @@ add wave -noupdate /DNSLookup_tb/DUT/query_domain
 add wave -noupdate /DNSLookup_tb/DUT/query_ip
 add wave -noupdate /DNSLookup_tb/DUT/query_data
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {30409 ps} 0}
+WaveRestoreCursors {{Cursor 1} {534175 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -43,4 +43,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {207578 ps} {264562 ps}
+WaveRestoreZoom {339869 ps} {484245 ps}

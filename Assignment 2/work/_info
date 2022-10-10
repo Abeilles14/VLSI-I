@@ -1,0 +1,1915 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2
+vAND2_X1
+Z1 !s110 1665218385
+!i10b 1
+!s100 1I_8dJU@6FOJTmnKKbjn30
+I]eXnojzKSoZ0ZC`?okd791
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1665208898
+Z4 8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/NanGate_15nm_OCL_functional.v
+Z5 FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/NanGate_15nm_OCL_functional.v
+L0 43
+Z6 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z7 !s108 1665218385.083000
+Z8 !s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/NanGate_15nm_OCL_functional.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/NanGate_15nm_OCL_functional.v|
+!i113 1
+Z10 o-work work
+n@a@n@d2_@x1
+vAND2_X2
+R1
+!i10b 1
+!s100 3ALnJM@mV5Z5[5zW8ULOg2
+IGg=_h:<4lCg[l5iBWBB_^0
+R2
+R0
+R3
+R4
+R5
+L0 51
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@n@d2_@x2
+vAND3_X1
+R1
+!i10b 1
+!s100 Ik<XFABTYa41EhkbHgCEj3
+I<d5A;7499L<DfIo6n<jDe3
+R2
+R0
+R3
+R4
+R5
+L0 59
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@n@d3_@x1
+vAND3_X2
+R1
+!i10b 1
+!s100 2<oFmj;leVXE74n_OabJg2
+IL@>78C?Kgz3bmiX;Y_k?43
+R2
+R0
+R3
+R4
+R5
+L0 69
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@n@d3_@x2
+vAND4_X1
+R1
+!i10b 1
+!s100 ?1`aXHT==[<=Q5[=]k^i10
+ITf1bB>4f5219JC_cEE3PT1
+R2
+R0
+R3
+R4
+R5
+L0 79
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@n@d4_@x1
+vAND4_X2
+R1
+!i10b 1
+!s100 zZ<5=cfK`Cn49aP68>EM_0
+I^[egI0Ym1<k9FQK@ZQ7YT3
+R2
+R0
+R3
+R4
+R5
+L0 91
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@n@d4_@x2
+vANTENNA
+R1
+!i10b 1
+!s100 mATIk:hGocG=RfBzN`PaT3
+I<lCCVmLA3z>L4gg5b<SZ^1
+R2
+R0
+R3
+R4
+R5
+L0 103
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@n@t@e@n@n@a
+vAOI21_X1
+R1
+!i10b 1
+!s100 :<oP]=:@K@B@fXXf;VLWl2
+I>9>j81XmbHkCCfE]=JmkG2
+R2
+R0
+R3
+R4
+R5
+L0 108
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@o@i21_@x1
+vAOI21_X2
+R1
+!i10b 1
+!s100 ZEYU6b:l5Al03W]H83B[L3
+IQGZ]1>eK:kAL@ED7?7cEW2
+R2
+R0
+R3
+R4
+R5
+L0 119
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@o@i21_@x2
+vAOI22_X1
+R1
+!i10b 1
+!s100 PPIM@:k?iM;SeOWDVhWe^3
+ISE?a8Q;KVYzL:mV[8l2?Q0
+R2
+R0
+R3
+R4
+R5
+L0 130
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@o@i22_@x1
+vAOI22_X2
+R1
+!i10b 1
+!s100 iC4o[^2iWFiD]A3KG_fCD2
+IETe5HX4d>n8X;5z[<8o<41
+R2
+R0
+R3
+R4
+R5
+L0 143
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@a@o@i22_@x2
+vBUF_X1
+R1
+!i10b 1
+!s100 _]F=``bPN4A?JSz4_O^_Z0
+IIA]3m@cNG<SP8^nW?l4SB2
+R2
+R0
+R3
+R4
+R5
+L0 156
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@b@u@f_@x1
+vBUF_X12
+R1
+!i10b 1
+!s100 an@XkLX6F2iWcdGIW_5P[1
+IGOMIglfk?_?9jZHTgnU`:2
+R2
+R0
+R3
+R4
+R5
+L0 184
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@b@u@f_@x12
+vBUF_X16
+R1
+!i10b 1
+!s100 >WCbUd<3nCcFR9BXXCKc<0
+INBHJWeNARn26mH<niJAG<2
+R2
+R0
+R3
+R4
+R5
+L0 191
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@b@u@f_@x16
+vBUF_X2
+R1
+!i10b 1
+!s100 <]:bBeB>Pm=N8QVAXg]n]0
+IU6igia7_0llYQNJTO_3Dj1
+R2
+R0
+R3
+R4
+R5
+L0 163
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@b@u@f_@x2
+vBUF_X4
+R1
+!i10b 1
+!s100 1o`e[EZJf4@]P:9Y]AUQ=0
+ILne6[o>h9:[2:Vf^@^7TU3
+R2
+R0
+R3
+R4
+R5
+L0 170
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@b@u@f_@x4
+vBUF_X8
+R1
+!i10b 1
+!s100 0zk@QfLHFme2o9_^_z9S22
+INSh;HD]U:NB<JNC_H3X=51
+R2
+R0
+R3
+R4
+R5
+L0 177
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@b@u@f_@x8
+vCLKBUF_X1
+R1
+!i10b 1
+!s100 FZ[o3TJZ46dM]@7?l^iMY3
+IUgP<57C;haEZnT3OLaG4J3
+R2
+R0
+R3
+R4
+R5
+L0 198
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@c@l@k@b@u@f_@x1
+vCLKBUF_X12
+R1
+!i10b 1
+!s100 oaPB<`@2Z[fT[TmzR>HUC0
+IEX4@DFFe^]A>6]QY3OdTH1
+R2
+R0
+R3
+R4
+R5
+L0 226
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@c@l@k@b@u@f_@x12
+vCLKBUF_X16
+R1
+!i10b 1
+!s100 [d>NROC3NY1YlBa2iR=fm1
+I3QWDZ2]gb44i6LY3OJ3TM2
+R2
+R0
+R3
+R4
+R5
+L0 233
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@c@l@k@b@u@f_@x16
+vCLKBUF_X2
+R1
+!i10b 1
+!s100 OmUL[Kk[8bEleOTEo_fha1
+I?;UboRm[0i6MhmETUa]^^3
+R2
+R0
+R3
+R4
+R5
+L0 205
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@c@l@k@b@u@f_@x2
+vCLKBUF_X4
+R1
+!i10b 1
+!s100 d_BYG9`<hbBdn:_W15V_62
+IcfUWa2LKKNm?BkngET@>X0
+R2
+R0
+R3
+R4
+R5
+L0 212
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@c@l@k@b@u@f_@x4
+vCLKBUF_X8
+R1
+!i10b 1
+!s100 VBLZdmi?N3GeM:iX2kERK3
+I6G]^==ZWGfYO2iWacRRBP3
+R2
+R0
+R3
+R4
+R5
+L0 219
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@c@l@k@b@u@f_@x8
+vCLKGATETST_X1
+R1
+!i10b 1
+!s100 P>_bgRb3B93GWeESzda?_0
+IciFcBCJ[5z1c6_FNm=gFf1
+R2
+R0
+R3
+R4
+R5
+L0 257
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@c@l@k@g@a@t@e@t@s@t_@x1
+vcounter
+Z11 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+R1
+!i10b 1
+!s100 T=E[7]Q=jbH3>1O=?dL:Y3
+IZ6h`]:@J`?S[e34;m_2O52
+R2
+!s105 counter_sv_unit
+S1
+R0
+w1665174379
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/counter.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/counter.sv
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1665218385.827000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/counter.sv|
+!i113 1
+Z12 o-work work -sv
+vdecoder416
+R11
+R1
+!i10b 1
+!s100 aCCQ2b[TH@j9H8FISZBnY3
+INbHdmI4o]0kmG]omIK5Z52
+R2
+!s105 decoder416_sv_unit
+S1
+R0
+w1664520356
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/decoder416.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/decoder416.sv
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1665218385.385000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/decoder416.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/decoder416.sv|
+!i113 1
+R12
+vDFFRNQ_X1
+R1
+!i10b 1
+!s100 [5gi66l6J>I`kWbULdfhP1
+IB84L@FGk?MNJ4czf]zR;]0
+R2
+R0
+R3
+R4
+R5
+L0 292
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@d@f@f@r@n@q_@x1
+vDFFSNQ_X1
+R1
+!i10b 1
+!s100 mklm[CLKJSheMaVgZzk6B0
+IV8m6Dl21MTjE;WdONAKji3
+R2
+R0
+R3
+R4
+R5
+L0 327
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@d@f@f@s@n@q_@x1
+vDNSLookup
+!s110 1665210872
+!i10b 1
+!s100 zULX^mRHC=^F?UlCD6W>X1
+Id4CbDWjSa=UHQMbcmRdCW1
+R2
+R0
+w1665205657
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_map.v
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_map.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1665210872.656000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_map.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_map.v|
+!i113 1
+R10
+n@d@n@s@lookup
+vDNSLookup_tb
+R11
+R1
+!i10b 1
+!s100 2ZkSW]W[03T4cgJ460YT[3
+I`bCh=QC9CGzjU^_LIV^TA2
+R2
+!s105 DNSLookup_tb_sv_unit
+S1
+R0
+w1665201703
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_tb.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_tb.sv
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1665218385.509000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_tb.sv|
+!i113 1
+R12
+n@d@n@s@lookup_tb
+vDomainIP
+R11
+R1
+!i10b 1
+!s100 B8@hXHiKCNU:VP^`LnBDY1
+IT6b:BdPn@ZeeJEcd<5gR=2
+R2
+!s105 DomainIP_sv_unit
+S1
+R0
+w1664487653
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DomainIP.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DomainIP.sv
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1665218385.589000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DomainIP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DomainIP.sv|
+!i113 1
+R12
+n@domain@i@p
+vFA_X1
+R1
+!i10b 1
+!s100 PP^GO_fTg29g:CU0i^H8F2
+I55BCiz:?RGe:b>Xk=;L;@2
+R2
+R0
+R3
+R4
+R5
+L0 340
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@a_@x1
+vFILL_X1
+R1
+!i10b 1
+!s100 ^@en]ITYZcU9IAJ`Hd>hP0
+IJ8;88jZ_nZJ4<;Q;<2H]T0
+R2
+R0
+R3
+R4
+R5
+L0 373
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@i@l@l_@x1
+vFILL_X16
+R1
+!i10b 1
+!s100 gGBVzg:BaF<]0BUIJ?1U40
+IX3A4n@QKL?^UUfVb80Kz`0
+R2
+R0
+R3
+R4
+R5
+L0 389
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@i@l@l_@x16
+vFILL_X2
+R1
+!i10b 1
+!s100 GmImh[d4icJ`^6Iz@lbCR2
+IW6Lg>i;M0U3EMSm2Bf6aQ3
+R2
+R0
+R3
+R4
+R5
+L0 377
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@i@l@l_@x2
+vFILL_X4
+R1
+!i10b 1
+!s100 YDk`Fm=Yi6AE^E6fHgXcZ3
+I8f:[L=j;JJF>FAO2:_EbI1
+R2
+R0
+R3
+R4
+R5
+L0 381
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@i@l@l_@x4
+vFILL_X8
+R1
+!i10b 1
+!s100 H_Rm]7Q?Elc^P2X5md@BG2
+IBcL2m4=Q@aKcYgQYG;mT]0
+R2
+R0
+R3
+R4
+R5
+L0 385
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@i@l@l_@x8
+vFILLTIE
+R1
+!i10b 1
+!s100 RQ1QRPPeQLoBkez9^32Qn3
+IF:I`=lDl=J3c6lAV@_zYg1
+R2
+R0
+R3
+R4
+R5
+L0 369
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@i@l@l@t@i@e
+vHA_X1
+R1
+!i10b 1
+!s100 z=V:agO:ji:<DQHYEkBZ<3
+IC0c4JN?U9COh5I@<FXf200
+R2
+R0
+R3
+R4
+R5
+L0 393
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@h@a_@x1
+vINV_X1
+R1
+!i10b 1
+!s100 UWH@daSB5H:=H05GXM2fb1
+IUVIAXS4eBnLDAG2mQlFel2
+R2
+R0
+R3
+R4
+R5
+L0 407
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@i@n@v_@x1
+vINV_X12
+R1
+!i10b 1
+!s100 eiU0?Ylz2[o0oYZY;TEcd3
+I8]h]d2Yk]0Foh12Y7@^=a0
+R2
+R0
+R3
+R4
+R5
+L0 435
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@i@n@v_@x12
+vINV_X16
+R1
+!i10b 1
+!s100 g^cPNCk?kSKenTP;GneTl0
+Ifk]YNX`a4O8fHbhI_5?T30
+R2
+R0
+R3
+R4
+R5
+L0 442
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@i@n@v_@x16
+vINV_X2
+R1
+!i10b 1
+!s100 Q>:1zho;dFB:QPHd?fX=E2
+Inj?T=Hi1Gi?7VJz@^YMf13
+R2
+R0
+R3
+R4
+R5
+L0 414
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@i@n@v_@x2
+vINV_X4
+R1
+!i10b 1
+!s100 TSX>oECn4boKiGJIEg1<d0
+IC8cS_gaY:kC@hjl7HlG2:1
+R2
+R0
+R3
+R4
+R5
+L0 421
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@i@n@v_@x4
+vINV_X8
+R1
+!i10b 1
+!s100 >?``XLdaOV7PU4_b_2kBl2
+IRk5Z7b^of5;C[fXb_7faX3
+R2
+R0
+R3
+R4
+R5
+L0 428
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@i@n@v_@x8
+vLHQ_X1
+R1
+!i10b 1
+!s100 QX9]F3RDGDzoQaTPXH`j<1
+IbY8_6U3n1H5jGToN016001
+R2
+R0
+R3
+R4
+R5
+L0 466
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@l@h@q_@x1
+vMUX2_X1
+R1
+!i10b 1
+!s100 6R<Ua:j>X:B12mM]k?J6@2
+IfUKl_4I2_]KIahHHg``K[0
+R2
+R0
+R3
+R4
+R5
+L0 478
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@u@x2_@x1
+vNAND2_X1
+R1
+!i10b 1
+!s100 =>mC7V7:HB@SZ4VcnUmih3
+IYQRGGIjG0]RoTVlQQ>Q2_3
+R2
+R0
+R3
+R4
+R5
+L0 490
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@a@n@d2_@x1
+vNAND2_X2
+R1
+!i10b 1
+!s100 26jZ;QF98IH0mWk2AncGL2
+I63FRIj3J?G=OAk3ngm@zP1
+R2
+R0
+R3
+R4
+R5
+L0 499
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@a@n@d2_@x2
+vNAND3_X1
+R1
+!i10b 1
+!s100 FHR>Nb=bz;;L2e3:h4=R@0
+I_MBem=z`SdM08e_DS]`0@3
+R2
+R0
+R3
+R4
+R5
+L0 508
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@a@n@d3_@x1
+vNAND3_X2
+R1
+!i10b 1
+!s100 f:MghPzHUT>R:?4Ga73cK3
+I?Ti;=jHcaNIMcUUEl?BDR0
+R2
+R0
+R3
+R4
+R5
+L0 519
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@a@n@d3_@x2
+vNAND4_X1
+R1
+!i10b 1
+!s100 oKBFoEh^MXFINO?b1d1cC0
+I>?eW8RGC7I`fBSanQSc2a0
+R2
+R0
+R3
+R4
+R5
+L0 530
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@a@n@d4_@x1
+vNAND4_X2
+R1
+!i10b 1
+!s100 dd];RSEXlikAVDhJ2^M1i3
+IiAD7<3?b:`mELGFoLla:m3
+R2
+R0
+R3
+R4
+R5
+L0 543
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@a@n@d4_@x2
+Ung_xbuf
+R1
+!i10b 1
+!s100 Plcn?<VHnK7Ad@fjO0kWf3
+IiSBTmf5O7@MQjm<iFA2X90
+R2
+R0
+R3
+R4
+R5
+L0 909
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vNOR2_X1
+R1
+!i10b 1
+!s100 HehZd:d5JSm1D@KVfUO?=1
+IFl;Eln5f92ncncU86noUn0
+R2
+R0
+R3
+R4
+R5
+L0 556
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@o@r2_@x1
+vNOR2_X2
+R1
+!i10b 1
+!s100 mQE^H45H32AHLOG;UTfBk2
+IL@;_Zg2PLg^1[b82hQ7E<2
+R2
+R0
+R3
+R4
+R5
+L0 565
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@o@r2_@x2
+vNOR3_X1
+R1
+!i10b 1
+!s100 XjlT=Hz9O[f?iEM9>Z5032
+IRK;JJPVzbA==1kW`zOPd]1
+R2
+R0
+R3
+R4
+R5
+L0 574
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@o@r3_@x1
+vNOR3_X2
+R1
+!i10b 1
+!s100 gARZDIEJMP=181gW4Ml771
+IZhhMPPfZ]91gk<Hz@]:h:3
+R2
+R0
+R3
+R4
+R5
+L0 585
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@o@r3_@x2
+vNOR4_X1
+R1
+!i10b 1
+!s100 5IoWNDNfjNZNFE737]E541
+IE;JnfeBPNhAn`o?GCBeNP2
+R2
+R0
+R3
+R4
+R5
+L0 596
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@o@r4_@x1
+vNOR4_X2
+R1
+!i10b 1
+!s100 AFEQ0`aT`1d?C:@`61IZN1
+I1ikWJ2]0e<PGl<EOI[WR@1
+R2
+R0
+R3
+R4
+R5
+L0 609
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@n@o@r4_@x2
+vOAI21_X1
+R1
+!i10b 1
+!s100 3?zCeomGooh[Z51YN4=YK0
+I:EX`k7[9MfY<k2ajX41>o0
+R2
+R0
+R3
+R4
+R5
+L0 622
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@a@i21_@x1
+vOAI21_X2
+R1
+!i10b 1
+!s100 5j3C5_>dUJDBcQ_eoNGAW1
+IWIBb3<J?Y66LUEEDiWZQ00
+R2
+R0
+R3
+R4
+R5
+L0 633
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@a@i21_@x2
+vOAI22_X1
+R1
+!i10b 1
+!s100 R7V>i?Ui2K1V_2eZaGQL13
+I3Rd2SU<oO1DW>3OGU6:_>3
+R2
+R0
+R3
+R4
+R5
+L0 644
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@a@i22_@x1
+vOAI22_X2
+R1
+!i10b 1
+!s100 UkIlA6W62<0IKj6bF0cC21
+IomI`2RIbVgk=`<PS_zYZ]2
+R2
+R0
+R3
+R4
+R5
+L0 657
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@a@i22_@x2
+vOR2_X1
+R1
+!i10b 1
+!s100 8K5E[fJoSY6^0AR9BO4NP1
+IJ@c_^=]9Ab5eYZ@Un@CAd3
+R2
+R0
+R3
+R4
+R5
+L0 670
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@r2_@x1
+vOR2_X2
+R1
+!i10b 1
+!s100 C;?QzBRh:E19>cdo>g=UY2
+IdlaX<W5BYDJCz350a>llC3
+R2
+R0
+R3
+R4
+R5
+L0 678
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@r2_@x2
+vOR3_X1
+R1
+!i10b 1
+!s100 fDV86LHUD<S1<33C32?8?1
+I_baoaHadNn=@`1lUZhYiC2
+R2
+R0
+R3
+R4
+R5
+L0 686
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@r3_@x1
+vOR3_X2
+R1
+!i10b 1
+!s100 S>DOUXFIHPW6L[TX1CDH30
+Ih79:c[7aHQb4nmeD0zkEb2
+R2
+R0
+R3
+R4
+R5
+L0 696
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@r3_@x2
+vOR4_X1
+R1
+!i10b 1
+!s100 E?e_CE6oibQYaF`2OGNHd0
+IG;aFV7kZWfZ1m`eJBTLSI2
+R2
+R0
+R3
+R4
+R5
+L0 706
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@r4_@x1
+vOR4_X2
+R1
+!i10b 1
+!s100 mo?g@ZFLKS@3MHO4]B:m60
+I2ze1iicjd`QhR7^`a5R_a3
+R2
+R0
+R3
+R4
+R5
+L0 718
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@o@r4_@x2
+vSDFFRNQ_X1
+R1
+!i10b 1
+!s100 ?L8Z3n:hEmXoM6[_hdTjf2
+IY7INzWI7O=086S<8mNNY^0
+R2
+R0
+R3
+R4
+R5
+L0 752
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@s@d@f@f@r@n@q_@x1
+vSDFFSNQ_X1
+R1
+!i10b 1
+!s100 Z44B<f5TVg0@eNgon<Qn31
+IMbmk4jD1?a;_MkCY^GOJ00
+R2
+R0
+R3
+R4
+R5
+L0 792
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@s@d@f@f@s@n@q_@x1
+Useq_CLKGATETST_X1
+R1
+!i10b 1
+!s100 `89fVPCPH:ofRDk]0RUU93
+I_jW`c5f2K7TQQgg1<MU_<1
+R2
+R0
+R3
+R4
+R5
+L0 240
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nseq_@c@l@k@g@a@t@e@t@s@t_@x1
+Useq_DFFRNQ_X1
+R1
+!i10b 1
+!s100 lSB7EIQXm_nVHZjP::J[G1
+I8FKG4>nonTl`RlnYh=MF43
+R2
+R0
+R3
+R4
+R5
+L0 270
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nseq_@d@f@f@r@n@q_@x1
+Useq_DFFSNQ_X1
+R1
+!i10b 1
+!s100 hSH;EMb<2TPTHHghlJKMH3
+IX0DcH?nNOaAaUcId;I@001
+R2
+R0
+R3
+R4
+R5
+L0 305
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nseq_@d@f@f@s@n@q_@x1
+Useq_LHQ_X1
+R1
+!i10b 1
+!s100 MEY56B[2IiF1NM9f0KlD@0
+IJAgcbjm<iM4R`711zJ5k?2
+R2
+R0
+R3
+R4
+R5
+L0 449
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nseq_@l@h@q_@x1
+Useq_SDFFRNQ_X1
+R1
+!i10b 1
+!s100 M`ESQMUKd:;R>:oSi57L;3
+IJ;lH05H_:Ikahfe6PdIiJ1
+R2
+R0
+R3
+R4
+R5
+L0 730
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nseq_@s@d@f@f@r@n@q_@x1
+Useq_SDFFSNQ_X1
+R1
+!i10b 1
+!s100 aT783m]G:^_F8d_23cLBO0
+IcRE2o<GdLT1UOLDc3EAMU2
+R2
+R0
+R3
+R4
+R5
+L0 770
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nseq_@s@d@f@f@s@n@q_@x1
+vTBUF_X1
+R1
+!i10b 1
+!s100 mkcn]RIkE4o_LI1QmK3:o1
+I`NA[j0o2PF>Z=`4:9S>6a3
+R2
+R0
+R3
+R4
+R5
+L0 810
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@t@b@u@f_@x1
+vTBUF_X12
+R1
+!i10b 1
+!s100 2m5nXg5=z3z<aim;[nE=b3
+ISCoJ;8_W1]ZEca6]3VR8;0
+R2
+R0
+R3
+R4
+R5
+L0 850
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@t@b@u@f_@x12
+vTBUF_X16
+R1
+!i10b 1
+!s100 `0^jUAXlf383Tmd[je@VK0
+Idi3M<kfH2YJWE6C2ln1SD1
+R2
+R0
+R3
+R4
+R5
+L0 860
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@t@b@u@f_@x16
+vTBUF_X2
+R1
+!i10b 1
+!s100 HAKC[^NSf[B2cVPM>V;S82
+IBFP]K4F:L094bb^VSGhfT2
+R2
+R0
+R3
+R4
+R5
+L0 820
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@t@b@u@f_@x2
+vTBUF_X4
+R1
+!i10b 1
+!s100 lkH>E3XN1X@Y=K=6ad^6c0
+I_@nUQ_0DE]VX932d07j2_1
+R2
+R0
+R3
+R4
+R5
+L0 830
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@t@b@u@f_@x4
+vTBUF_X8
+R1
+!i10b 1
+!s100 VBnX5WZJ3_5nJ]=zViY?H1
+Iz?9YJV_n>V>eFNeoT]1=43
+R2
+R0
+R3
+R4
+R5
+L0 840
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@t@b@u@f_@x8
+vTIEH
+R1
+!i10b 1
+!s100 c]GMJzF^kI<292Jg`QJVk3
+I5>Oo]0a_2>=?P5=0Rl4_B1
+R2
+R0
+R3
+R4
+R5
+L0 870
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@t@i@e@h
+vTIEL
+R1
+!i10b 1
+!s100 VD`W9FI_G<OW<K<Kk641W0
+IEbEjK46l=f=6XT:V7=1id3
+R2
+R0
+R3
+R4
+R5
+L0 876
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@t@i@e@l
+vTLDAddr
+R11
+R1
+!i10b 1
+!s100 4lEKYWg;ji?gO]mHEaQzZ0
+IG=R`bP]YCLf2?<S;`cP;B2
+R2
+!s105 TLDAddr_sv_unit
+S1
+R0
+w1664409483
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/TLDAddr.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/TLDAddr.sv
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1665218385.669000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/TLDAddr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/TLDAddr.sv|
+!i113 1
+R12
+n@t@l@d@addr
+vWebIP
+R11
+R1
+!i10b 1
+!s100 m4VA05d5XhI6Jh?=XX@>R0
+I022N`efzbd;9TA:LfLUIo2
+R2
+!s105 WebIP_sv_unit
+S1
+R0
+w1664507955
+8C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/WebIP.sv
+FC:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/WebIP.sv
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1665218385.745000
+!s107 C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/WebIP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/WebIP.sv|
+!i113 1
+R12
+n@web@i@p
+vXNOR2_X1
+R1
+!i10b 1
+!s100 @kEnCXd[_7>iJb[WgQi=l2
+Iz6m><U316358K_eRLcX:j2
+R2
+R0
+R3
+R4
+R5
+L0 882
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@x@n@o@r2_@x1
+vXOR2_X1
+R1
+!i10b 1
+!s100 415XZe3f4R[^g7z2FmE=W0
+IMk6OG<b2TdVVNZ84HkIff1
+R2
+R0
+R3
+R4
+R5
+L0 895
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@x@o@r2_@x1

@@ -1,0 +1,95 @@
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# 7 compiles, 0 failed with no errors.
+do {C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/wave.do}
+restart -f
+# No Design Loaded!
+vsim -gui -sdfnoerror work.DNSLookup_tb
+# vsim 
+# Start time: 01:30:43 on Oct 08,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.counter
+# Loading work.TLDAddr
+# Loading work.DomainIP
+# Loading work.WebIP
+# Loading work.decoder416
+add wave -position end sim:/DNSLookup_tb/DUT/*
+run
+run
+run
+# Closing project C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/dnslookup.mpf
+# reading C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project DNSLookup
+# Compile of NanGate_15nm_OCL_functional.v was successful.
+# Compile of decoder416.sv was successful.
+# Compile of DNSLookup_tb.sv was successful.
+# Compile of DomainIP.sv was successful.
+# Compile of TLDAddr.sv was successful.
+# Compile of WebIP.sv was successful.
+# Compile of counter.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -sdftyp {/DUT=C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_map.sdf} -sdfnoerror work.DNSLookup_tb
+# vsim 
+# Start time: 01:40:14 on Oct 08,2022
+# Loading sv_std.std
+# Loading work.DNSLookup_tb
+# Loading work.DNSLookup
+# Loading work.WebIP
+# Loading work.counter
+# Loading work.DomainIP
+# Loading work.TLDAddr
+# Loading work.decoder416
+# Loading work.CLKBUF_X1
+# Loading work.INV_X1
+# Loading work.LHQ_X1
+# Loading work.DFFRNQ_X1
+# Loading work.DFFSNQ_X1
+# Loading work.AOI22_X1
+# Loading work.NAND3_X1
+# Loading work.AOI21_X1
+# Loading work.NAND2_X1
+# Loading work.AND2_X1
+# Loading work.NOR2_X1
+# Loading work.NAND4_X1
+# Loading work.NOR4_X1
+# Loading work.NOR2_X2
+# Loading work.OR2_X1
+# Loading work.NOR3_X1
+# Loading work.OAI21_X1
+# Loading work.OR3_X1
+# Loading work.OAI22_X1
+# Loading work.XOR2_X1
+# Loading work.BUF_X1
+# SDF 10.3c Compiler 2014.09 Sep 20 2014
+# 
+# usage: sdfcom [ options ] source-file output-file
+# 
+# Options:
+# 
+#   -mindelays          Use minimum timing from min:typ:max expressions
+# 
+#   -typdelays          Use typical timing from min:typ:max expressions (default)
+# 
+#   -maxdelays          Use maximum timing from min:typ:max expressions
+# 
+#   -delayscale <val>   Scale delays by the specified value
+# 
+#   -nocompress         Don't compress the resulting output file
+# 
+#   -suppress <msg(s)>  Suppress comma-separed list of error/warning messages
+# 
+# Loading work.seq_LHQ_X1
+# Loading work.seq_DFFRNQ_X1
+# Loading work.seq_DFFSNQ_X1
+# ** Fatal: SDF files require Altera primitive library
+#    Time: 0 ps  Iteration: 0  Instance: /DNSLookup_tb File: C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 2/DNSLookup_tb.sv
+# FATAL ERROR while loading design
+# Error loading design
+# Load canceled
