@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"M0v" "m0v"
+"M1v" "m1v"
+"M0n" "NCSU_TechLib_FreePDK15_nmos_hspiceD"
+"C0v" "c0v"
+"M1n" "NCSU_TechLib_FreePDK15_pmos_hspiceD"
+"V0v" "v0v"
+"C0n" "analogLib_cap_hspiceD"
+"V0n" "analogLib_vpwl_hspiceD"

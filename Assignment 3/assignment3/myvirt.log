@@ -1,0 +1,3391 @@
+\# Program start time:     UTC 2022.10.26 17:10:05.459
+\# Local time: PDT (UTC-07:00) 2022.10.26 10:10:05.459
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 03/13/2021 15:49 (cpgsrv07) $
+\o Hierarchy:		/ubc/ece/data/cmc2/tools/cadence/IC06.18.170_lnx86/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.17  (64-bit addresses)
+\# Command line:	/CMC/tools/cadence/IC06.18.170_lnx86/tools/dfII/bin/64bit/virtuoso -log myvirt.log
+\# Host name (type):	ssh-soc.ece.ubc.ca (x86_64)
+\# Operating system:	Linux 3.10.0-1160.15.2.el7.x86_64 #1 SMP Wed Feb 3 15:06:38 UTC 2021
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:165.0 (800x600)
+\# Available geometry:			TL(0:31) BR(799:550)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 70000000)
+\# X resource pool:	base 0x2600000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        557 MB
+\# Available memory:	        770 MB
+\# System memory:	     66,458 MB
+\# Maximum memory size:	     66,074 MB
+\# Max mem available:	        943 MB
+\# Initial memory used:	        173 MB
+\#        process size:	      1,699 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 12.00/12.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		abeilles
+\o Working Directory:	ssh-soc.ece.ubc.ca:/ubc/ece/home/ugrads/a/abeilles/elec402/assignment3
+\# Process Id:		62694
+\o 
+\o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.55s.
+\# Memory report: using         302 MB, process size 1,882 MB at UTC 2022.10.26 17:10:15.281
+\o //
+\o //  Calibre Skill Interface * (v2018.1_36.27) *
+\o //
+\o //                 Copyright Mentor Graphics Corporation 2005
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\# Available memory:            437 MB at UTC 2022.10.26 17:10:16.670
+\# Memory report: Maximum memory size now 744 MB at UTC 2022.10.26 17:10:16.670
+\# Thread usage report: 13 active threads, active load 1.00 at UTC 2022.10.26 17:10:16.670
+\o loading vars from /CMC/kits/ncsu_pdk/FreePDK15/cdslib/setup/cdsenv for tool layout
+\o ---------------------------------------------------------------------------
+\o Welcome to the FreePDK 15nm Free, Open-Source Process Design Kit
+\o 
+\o ---------------------------------------------------------------------------
+\o 
+\o Done loading FreePDK customizations.
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\a _treeSetOpcGUI(t)
+\r t
+\a hiResizeWindow(window(1) list(0:73 863:266))
+\r t
+\# Available memory:            484 MB at UTC 2022.10.26 17:10:26.965
+\# Memory report: Maximum memory size now 796 MB at UTC 2022.10.26 17:10:26.965
+\# Memory report: Maximum memory size now 778 MB at UTC 2022.10.26 17:13:06.966
+\o  
+\o Library Manager created library "buffer"
+\p > 
+\a hiiSetCurrentForm('ddsTechOptionForm)
+\r t
+\a ddsTechOptionForm->Option->value="Attach to an existing technology library"
+\r "Attach to an existing technology library"
+\a hiFormDone(ddsTechOptionForm)
+\i tcNewLibDisplayAttachTechForm("buffer")
+\p > 
+\a hiiSetCurrentForm('tcNewLibAttachTechForm)
+\r t
+\a hiFormDone(tcNewLibAttachTechForm)
+\o INFO (TECH-180011): Design library 'buffer' successfully attached to technology library 'NCSU_TechLib_FreePDK15'.
+\r t
+\r t
+\o  
+\o Library Manager new cellview request for library "buffer".
+\i deNew('(nil libName "buffer"))
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a deNewForm->deCellName->value="buffer"
+\r "buffer"
+\a hiFormDone(deNewForm)
+\r t
+\# Displaying modal dbox "_icLicLicenseQuestionDBox", title "Next License"
+\p > 
+\# Available memory:            438 MB at UTC 2022.10.26 17:15:16.965
+\# Memory report: Maximum memory size now 755 MB at UTC 2022.10.26 17:15:16.965
+\a hiDBoxUser(_icLicLicenseQuestionDBox nil 1)
+\r t
+\# Current Window: window(2)
+\o Loading schematic.cxt 
+\o Loading ddui.cxt 
+\o Loading vb.cxt 
+\o Loading nt.cxt 
+\o Loading oi.cxt 
+\o Loading see.cxt 
+\o Loading treeAssistant.cxt 
+\o Loading asst.cxt 
+\o Loading hsm.cxt 
+\o Loading oasis.cxt 
+\o Loading simui.cxt 
+\a when(dwindow('oiAssistant1) hiMapWindow(dwindow('oiAssistant1)))
+\r t
+\a when(dwindow('treeAssistant1) hiMapWindow(dwindow('treeAssistant1)))
+\r t
+\a hiResizeWindow(swindow(1) list(0:49 794:645))
+\r t
+\a hiResizeWindow(swindow(1) list(0:49 794:658))
+\r t
+\# Available memory:            395 MB at UTC 2022.10.26 17:16:06.964
+\# Memory report: Maximum memory size now 773 MB at UTC 2022.10.26 17:16:36.966
+\# Available memory:            437 MB at UTC 2022.10.26 17:16:46.964
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\# Memory report: Maximum memory size now 794 MB at UTC 2022.10.26 17:16:56.965
+\a cancelEnterFun(schCreateInstForm)
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a schCreateInstForm->libraryName->value="buffer"
+\r "buffer"
+\a schCreateInstForm->cellName->value="buffer"
+\o Loading cdf.cxt 
+\r "buffer"
+\a cancelEnterFun(schCreateInstForm)
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a cancelEnterFun(schCreateInstForm)
+\r t
+\r nil
+\a hiCloseWindow(swindow(1))
+\r t
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o Loading vdsil.cxt 
+\o Loading lx.cxt 
+\o Loading lce.cxt 
+\o Loading le.cxt 
+\w *WARNING* could not load font "-*-helvetica-medium-r-*-*-12-*", using font "fixed"
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\o Loading rte.cxt 
+\o Loading te.cxt 
+\o Loading schHDL.cxt 
+\# Available memory:            353 MB at UTC 2022.10.26 17:19:35.873
+\# Memory report: Maximum memory size now 764 MB at UTC 2022.10.26 17:19:35.873
+\# Memory report: using         411 MB, process size 2,088 MB at UTC 2022.10.26 17:19:35.873
+\o Info (ccp): Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.56s.
+\o 
+\o Info (ccp): ccpDFIIChecker: Starting ...
+\o Info (ccp): ccpDFIIChecker: End running.
+\o Loading mtv.cxt 
+\# Memory report: Maximum memory size now 792 MB at UTC 2022.10.26 17:19:45.816
+\o  
+\o Library Manager new cellview request for library "ELEC402".
+\i deNew('(nil libName "ELEC402"))
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a hiFormDone(deNewForm)
+\r t
+\# Current Window: window(3)
+\a when(dwindow('oiAssistant2) hiMapWindow(dwindow('oiAssistant2)))
+\r t
+\a when(dwindow('treeAssistant2) hiMapWindow(dwindow('treeAssistant2)))
+\r t
+\a hiResizeWindow(swindow(2) list(52:157 846:645))
+\r t
+\a hiResizeWindow(swindow(2) list(-2:49 846:645))
+\r t
+\a hiResizeWindow(swindow(2) list(6:33 846:645))
+\r t
+\a hiResizeWindow(swindow(2) list(55:0 846:616))
+\r t
+\a hiResizeWindow(window(1) list(0:257 988:450))
+\r t
+\a schHiCreateInst()
+\w *WARNING* (SCH-1162): Cell "buffer" does not exist in library "buffer".
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a cancelEnterFun(schCreateInstForm)
+\r t
+\r nil
+\# Available memory:            387 MB at UTC 2022.10.26 17:20:24.965
+\a schHiCreateInst()
+\w *WARNING* (SCH-1162): Cell "buffer" does not exist in library "buffer".
+\p > 
+\a cancelEnterFun(schCreateInstForm)
+\r t
+\r nil
+\# Memory report: Maximum memory size now 810 MB at UTC 2022.10.26 17:20:53.965
+\# Available memory:            443 MB at UTC 2022.10.26 17:21:43.965
+\# Memory report: Maximum memory size now 860 MB at UTC 2022.10.26 17:21:43.965
+\a hiResizeWindow(swindow(2) list(96:73 887:689))
+\r t
+\a schHiCreateInst()
+\w *WARNING* (SCH-1162): Cell "buffer" does not exist in library "buffer".
+\p > 
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "" "")
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "pmos" "")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "pmos" "symbol")
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "nmos" "symbol")
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "nmos_fingers" "")
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "nmos" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "" "")
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "nmos" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\a mouseAddPt(t)
+\i -2.51875:0.76875
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\# Memory report: Maximum memory size now 841 MB at UTC 2022.10.26 17:23:31.786
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schHiMousePopUp()
+\i -1.875:-0.1875
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schHiCreateInst()
+\r t
+\a schHiCreateInst()
+\r t
+\a hiResizeWindow(swindow(2) list(132:49 923:665))
+\r t
+\# Available memory:            400 MB at UTC 2022.10.26 17:24:09.966
+\# Memory report: Maximum memory size now 821 MB at UTC 2022.10.26 17:24:09.966
+\# Available memory:            444 MB at UTC 2022.10.26 17:24:19.398
+\# Memory report: Maximum memory size now 864 MB at UTC 2022.10.26 17:24:19.398
+\a schCreateInstForm->cellName->value="pmos"
+\r "pmos"
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i -2.48125:-0.0875
+\r t
+\a schHiCreateInst()
+\r t
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\# Memory report: Maximum memory size now 843 MB at UTC 2022.10.26 17:24:48.703
+\a schHiMousePopUp()
+\i 0.8125:-0.9375
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a geSingleSelectBox()
+\i -0.75:-0.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.375:-1.8125
+\r t
+\r nil
+\a mouseAddPt(t)
+\i 0.49375:0.38125
+\r t
+\a schCmdOption()
+\r t
+\a schHiMousePopUp()
+\i 0.125:-0.125
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schHiMousePopUp()
+\i 0.25:0.4375
+\r t
+\a hiPopupDown(schInstPinPopUp)
+\r t
+\a geSingleSelectBox()
+\i -0.375:0.9375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1:-0.4375
+\r t
+\r t
+\a schHiEditInPlace()
+\# Displaying modal dbox "_schDBox", title "Information"
+\p > 
+\# Available memory:            398 MB at UTC 2022.10.26 17:25:07.966
+\# Memory report: Maximum memory size now 820 MB at UTC 2022.10.26 17:25:07.966
+\a hiDBoxOK(_schDBox)
+\r t
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 0.5625:0.4375
+\r t
+\a hiZoomInAtMouse()
+\i 0.5625:0.4375
+\r t
+\a hiZoomOutAtMouse()
+\i 0.375:0.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 0.3125:0.3125
+\r t
+\a hiZoomOutAtMouse()
+\i 0.3125:0.25
+\r t
+\a hiZoomInAtMouse()
+\i -3:-0.5625
+\r t
+\a hiZoomInAtMouse()
+\i -3.0625:-0.5625
+\r t
+\a hiZoomInAtMouse()
+\i -3:-0.5
+\r t
+\a hiZoomOutAtMouse()
+\i -2.1875:-0.3125
+\r t
+\a hiZoomOutAtMouse()
+\i -1.875:-0.0625
+\r t
+\a hiDynamicPanGrabbing()
+\i -1.35:-0.1125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1.35:-0.1125
+\a hiZoomIn(window(3) list(-4.25625:-3.16875 2.68125:2.38125))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 0.3125:0.4375
+\r t
+\a hiZoomInAtMouse()
+\i 0.4375:0.375
+\r t
+\a schHiMousePopUp()
+\i 0.3125:0.375
+\r t
+\a hiPopupDown(schSymbolShapePopUp)
+\r t
+\a hiZoomInAtMouse()
+\i 0.4375:-0.125
+\r t
+\a hiZoomInAtMouse()
+\i 0.4375:-0.125
+\r t
+\a hiZoomOutAtMouse()
+\i 0.4375:-0.125
+\r t
+\a hiZoomOutAtMouse()
+\i 0.4375:-0.125
+\r t
+\a hiZoomOutAtMouse()
+\i 0.4375:-0.125
+\r t
+\a hiResizeWindow(swindow(2) list(61:49 923:665))
+\r t
+\a hiZoomInAtMouse()
+\i 0.125:0.75
+\r t
+\a hiZoomInAtMouse()
+\i 0.125:0.75
+\r t
+\a hiZoomInAtMouse()
+\i 0.125:0.75
+\r t
+\a hiZoomInAtMouse()
+\i 0.125:0.75
+\r t
+\a hiZoomOutAtMouse()
+\i 0.125:0.75
+\r t
+\a hiZoomOutAtMouse()
+\i 0.125:0.75
+\r t
+\a hiZoomOutAtMouse()
+\i 0.0625:0.6875
+\r t
+\a hiZoomOutAtMouse()
+\i 0.125:0.75
+\r t
+\a hiZoomOutAtMouse()
+\i 0.0625:0.6875
+\r t
+\a hiZoomOutAtMouse()
+\i 0.0625:0.625
+\r t
+\a hiZoomInAtMouse()
+\i -1.75:-0.1875
+\r t
+\a hiZoomInAtMouse()
+\i -1.8125:-0.1875
+\r t
+\a hiZoomInAtMouse()
+\i 0.375:0.375
+\r t
+\a hiZoomOutAtMouse()
+\i 0.4375:0.375
+\r t
+\a hiZoomOutAtMouse()
+\i 0.375:0.4375
+\r t
+\a deBack()
+\# Displaying modal dbox "geDBox", title "Save Changes"
+\p > 
+\a hiDBoxOK(geDBox)
+\r t
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: Symbol
+\r t
+\a schDirectEdit(1)
+\i -0.0625:0.8125
+\# Direct Edit. Area selection.
+\i -0.0625:0.8125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.75:0.0625
+\r t
+\r nil
+\# Available memory:            473 MB at UTC 2022.10.26 17:25:46.965
+\# Memory report: Maximum memory size now 897 MB at UTC 2022.10.26 17:25:46.965
+\a schHiDelete()
+\r t
+\a hiZoomInAtMouse()
+\i -2.875:0.5625
+\r t
+\a hiZoomInAtMouse()
+\i -2.875:0.5625
+\r t
+\a hiZoomOutAtMouse()
+\i -2.25:0.5625
+\r t
+\a schHiCreateInst()
+\p > 
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "pmos" "symbol")
+\# Memory report: Maximum memory size now 874 MB at UTC 2022.10.26 17:26:06.965
+\i ddsServSelect("NCSU_TechLib_FreePDK15" "capacitor" "")
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("analogLib" "" "")
+\i ddsServSelect("analogLib" "cap" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\i ddsServSelect("analogLib" "" "")
+\i ddsServSelect("analogLib" "cap" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\a mouseAddPt(t)
+\i -1.86875:0.35625
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\# Available memory:            426 MB at UTC 2022.10.26 17:27:36.437
+\# Memory report: Maximum memory size now 852 MB at UTC 2022.10.26 17:27:36.437
+\a schCmdOption()
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\# Memory report: Maximum memory size now 832 MB at UTC 2022.10.26 17:27:45.964
+\i ddsServOpen("basic" "GND" "" "edit" nil)
+\p > 
+\a hiiSetCurrentForm('deOpenForm)
+\r t
+\a hiFormCancel(deOpenForm)
+\r t
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schCreateInstForm->libraryName->value="basic"
+\r "basic"
+\a schCreateInstForm->cellName->value="GND"
+\r "GND"
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("basic" "GND" "")
+\i ddsServSelect("basic" "GND" "")
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("basic" "GND" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a mouseAddPt(t)
+\i -1.89375:0
+\r t
+\a mouseAddPt(t)
+\i -2.25625:-0.26875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i -1.625:0.5
+\r t
+\a hiZoomOutAtMouse()
+\i -2.125:0.5625
+\r t
+\a hiZoomOutAtMouse()
+\i -2.125:0.5625
+\r t
+\a hiZoomInAtMouse()
+\i -2.8125:1.125
+\r t
+\a schHiCreateInst()
+\p > 
+\# Memory report: Maximum memory size now 884 MB at UTC 2022.10.26 17:29:14.965
+\# Memory report: Maximum memory size now 866 MB at UTC 2022.10.26 17:30:24.965
+\# Available memory:            493 MB at UTC 2022.10.26 17:30:44.965
+\# Memory report: Maximum memory size now 920 MB at UTC 2022.10.26 17:30:44.965
+\# Memory report: Maximum memory size now 900 MB at UTC 2022.10.26 17:30:54.964
+\# Memory report: Maximum memory size now 925 MB at UTC 2022.10.26 17:32:24.965
+\# Memory report: Maximum memory size now 906 MB at UTC 2022.10.26 17:32:54.965
+\# Memory report: Maximum memory size now 880 MB at UTC 2022.10.26 17:33:04.965
+\# Memory report: Maximum memory size now 908 MB at UTC 2022.10.26 17:33:14.965
+\# Memory report: Maximum memory size now 875 MB at UTC 2022.10.26 17:33:24.965
+\# Memory report: Maximum memory size now 904 MB at UTC 2022.10.26 17:33:34.964
+\# Memory report: Maximum memory size now 881 MB at UTC 2022.10.26 17:34:24.965
+\# Available memory:            434 MB at UTC 2022.10.26 17:35:04.965
+\# Memory report: Maximum memory size now 861 MB at UTC 2022.10.26 17:35:04.965
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("basic" "VDD" "symbol")
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("basic" "VDD" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("basic" "VDD" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\a mouseAddPt(t)
+\i -2.24375:0.91875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("basic" "out" "symbol")
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("basic" "out" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\a mouseAddPt(t)
+\i -1.6125:0.375
+\r t
+\# Available memory:            529 MB at UTC 2022.10.26 17:36:54.966
+\# Memory report: Maximum memory size now 956 MB at UTC 2022.10.26 17:36:54.966
+\# Available memory:            456 MB at UTC 2022.10.26 17:37:04.964
+\# Memory report: Maximum memory size now 883 MB at UTC 2022.10.26 17:37:04.964
+\a schCreateInstForm->instanceName->value="Vout"
+\r "Vout"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a schHiCreateInst()
+\r t
+\a schCreateInstForm->cellName->value="in"
+\r "in"
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("basic" "in" "symbol")
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("basic" "in" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\# Available memory:            350 MB at UTC 2022.10.26 17:37:23.964
+\# Memory report: Maximum memory size now 777 MB at UTC 2022.10.26 17:37:23.964
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i -2.88125:0.35
+\r t
+\# Memory report: Maximum memory size now 801 MB at UTC 2022.10.26 17:37:33.964
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\o Loading layers.cxt 
+\p > 
+\a mouseAddPt(t)
+\i -2.50625:0.725
+\r t
+\a mouseAddPt(t)
+\i -2.625:0.73125
+\r t
+\a mouseAddPt(t)
+\i -2.63125:-0.075
+\r t
+\a mouseAddPt(t)
+\i -2.475:-0.0875
+\r t
+\a mouseAddPt(t)
+\i -2.89375:0.36875
+\r t
+\# Available memory:            383 MB at UTC 2022.10.26 17:37:53.964
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMousePopUp()
+\i -3.0625:0.25
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a schSingleSelectPt()
+\i -2.9375:0.375
+\r t
+\# Memory report: Maximum memory size now 818 MB at UTC 2022.10.26 17:38:03.142
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schInstPinPopUp)
+\r t
+\a schSingleSelectPt()
+\i -2.9375:0.375
+\r t
+\a schSingleSelectPt()
+\i -2.9375:0.375
+\r t
+\a schExtendSelectPt()
+\i -2.9375:0.375
+\r t
+\a _schHiToolbarRotate('previous)
+\p > 
+\a schHiFontUpdate(?increase 'previous)
+\p > 
+\a _schHiToolbarRotate('flipH)
+\p > 
+\a _schHiToolbarRotate('previous)
+\p > 
+\a schHiFontUpdate(?increase 'previous)
+\r nil
+\a _schHiToolbarRotate('right)
+\p > 
+\a mouseAddPt(t)
+\i -2.6375:0.075
+\r t
+\r t
+\a mouseAddPt(t)
+\i -2.875:0.4125
+\r t
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseAddPt(t)
+\i -3.01875:0.5125
+\r t
+\a mouseAddPt(t)
+\i -2.96875:-0.14375
+\r t
+\a schCmdOption()
+\r nil
+\a geSingleSelectBox()
+\i -3:-0.125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -3:0.0625
+\r t
+\r nil
+\a schMouseApplyOrFinish()
+\i -2.9375:-0.1875
+\r t
+\a schHiMove()
+\p > 
+\a mouseAddPt(t)
+\i -2.9625:-0.11875
+\r t
+\a mouseAddPt(t)
+\i -2.8375:0.31875
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i -2.88125:0.28125
+\r t
+\a mouseAddPt(t)
+\i -2.6375:0.28125
+\r t
+\a _schHiToolbarRotate('right)
+\p > 
+\a mouseAddPt(t)
+\i -2.81875:0.3
+\r t
+\a mouseAddPt(t)
+\i -2.8625:0.29375
+\r t
+\a mouseAddPt(t)
+\i -2.8375:0.31875
+\r t
+\a schHiFontUpdate(?increase 'previous)
+\r nil
+\a mouseAddPt(t)
+\i -2.84375:0.29375
+\r t
+\a mouseAddPt(t)
+\i -2.83125:0.29375
+\r t
+\a mouseAddPt(t)
+\i -2.83125:0.29375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseAddPt(t)
+\i -2.81875:0.29375
+\r t
+\a schMouseApplyOrFinish()
+\i -2.875:0.3125
+\r t
+\a mouseAddPt(t)
+\i -2.81875:0.33125
+\r t
+\a schHiEditInPlace()
+\p > 
+\a mouseAddPt(t)
+\i -2.775:0.1625
+\r t
+\a mouseAddPt(t)
+\i -2.6875:0.2125
+\r t
+\a mouseAddPt(t)
+\i -2.8375:0.18125
+\r t
+\a mouseAddPt(t)
+\i -2.5875:0.275
+\r t
+\a mouseAddPt(t)
+\i -2.61875:0.325
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i -2.63125:0.30625
+\r t
+\a mouseAddPt(t)
+\i -2.63125:0.30625
+\r t
+\a schMouseApplyOrFinish()
+\i -2.875:0.3125
+\# Displaying modal dbox "_schDBox", title "Information"
+\p > 
+\a hiDBoxOK(_schDBox)
+\r t
+\r nil
+\r t
+\r nil
+\r nil
+\r nil
+\r nil
+\a mouseSingleSelectPt()
+\i -2.8125:0.3125
+\r t
+\a hiUnmapWindow(dwindow('oiAssistant2))
+\r t
+\a _treeNavOptionsSort(dwindow('treeAssistant2) "t")
+\r t
+\a _treeNavOptionsElabLayout(dwindow('treeAssistant2) "nil")
+\r t
+\a _treeNavOptionsElabLeaves(dwindow('treeAssistant2) "nil")
+\r t
+\a _treeNavOptionsOrder(dwindow('treeAssistant2) "block")
+\r t
+\a _treeNavOptionsThresholds(dwindow('treeAssistant2) "1:1:1:1:1:1:1")
+\r t
+\a _treeNavOptionsNameAfter(dwindow('treeAssistant2) "t")
+\r t
+\a _treeNavOptionsNameSeparator(dwindow('treeAssistant2) "-")
+\r t
+\a _treeNavOptionsNameLeft(dwindow('treeAssistant2) "(")
+\r t
+\a _treeNavOptionsNameRight(dwindow('treeAssistant2) ")")
+\r t
+\a _treeNavOptionsNameColumns(dwindow('treeAssistant2) "<eoc>Cell Name")
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant2) "Objects/All")
+\r t
+\a _treeNavToggleSideBySide(dwindow('treeAssistant2))
+\r t
+\a _treeNavToggleSideBySide(dwindow('treeAssistant2))
+\r t
+\a schHiDefaultAction()
+\i -2.8125:0.3125
+\r nil
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schSymbolPinPopUp)
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a mouseSingleSelectPt()
+\i -3.0625:1
+\r nil
+\a mouseSingleSelectPt()
+\i -2.9375:0
+\r nil
+\a mouseSingleSelectPt()
+\i -2.8125:0.25
+\r t
+\a mouseSingleSelectPt()
+\i -2.9375:0.1875
+\r t
+\a mouseSingleSelectPt()
+\i -3.125:0.0625
+\r nil
+\a mouseSingleSelectPt()
+\i -2.9375:-0.1875
+\r nil
+\a deBack()
+\# Displaying modal dbox "geDBox", title "Save Changes"
+\p > 
+\a hiDBoxOK(geDBox)
+\r t
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: Symbol
+\r t
+\a schSingleSelectPt()
+\i -2.8125:0.3125
+\r t
+\a _schHiToolbarRotate('right)
+\p > 
+\a mouseAddPt(t)
+\i -2.875:0.29375
+\r t
+\a mouseAddPt(t)
+\i -3.16875:0.2625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -2.6875:0.1875
+\r t
+\a schSingleSelectPt()
+\i -2.625:0.3125
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schWirePopUp)
+\r t
+\a geEnterDeleteNetProbe()
+\p > 
+\a mouseAddPt(t)
+\i -2.6875:0.175
+\w *WARNING* No nets found.
+\r t
+\a mouseAddPt(t)
+\i -2.86875:0.20625
+\w *WARNING* No nets found.
+\r t
+\a mouseAddPt(t)
+\i -2.83125:0.325
+\w *WARNING* No nets found.
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i -2.7:0.16875
+\w *WARNING* No nets found.
+\r t
+\a mouseAddPt(t)
+\i -2.69375:0.15625
+\w *WARNING* No nets found.
+\r t
+\a mouseAddPt(t)
+\i -2.65:0.30625
+\w *WARNING* No nets found.
+\r t
+\a mouseAddPt(t)
+\i -2.2125:0.40625
+\w *WARNING* No figures found.
+\r t
+\a mouseAddPt(t)
+\i -2.63125:0.3
+\w *WARNING* No nets found.
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i -2.6625:0.26875
+\w *WARNING* No nets found.
+\r t
+\a geSingleSelectBox()
+\i -3:0.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.75:0
+\r t
+\r t
+\a schHiEditInPlace()
+\# Displaying modal dbox "_schDBox", title "Information"
+\p > 
+\a hiDBoxOK(_schDBox)
+\r t
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -3.1875:0.4375
+\# Direct Edit. Area selection.
+\i -3.1875:0.4375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.5625:0.125
+\r t
+\r nil
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schSymbolMultiPopUp)
+\r t
+\a geDeselectAllFig()
+\r t
+\a mouseSingleSelectPt()
+\i -2.5625:0.1875
+\r nil
+\a deBack()
+\r t
+\a schSingleSelectPt()
+\i -2.625:0.3125
+\r t
+\# Memory report: Maximum memory size now 798 MB at UTC 2022.10.26 17:41:06.964
+\a schSingleSelectPt()
+\i -2.6875:0.1875
+\r t
+\a schSingleSelectPt()
+\i -2.625:0.3125
+\r t
+\a geSubSelectPoint()
+\p > 
+\a mouseAddPt(t)
+\i -2.75625:0.175
+\r t
+\r nil
+\a geSubSelectPoint()
+\p > 
+\# Memory report: Maximum memory size now 816 MB at UTC 2022.10.26 17:41:25.965
+\a mouseAddPt(t)
+\i -2.60625:0.3125
+\r t
+\r t
+\a schSingleSelectPt()
+\i -2.8125:0.1875
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schWirePopUp)
+\r t
+\a schHiDelete()
+\p > 
+\a mouseAddPt(t)
+\i -2.76875:0.16875
+\r t
+\a mouseAddPt(t)
+\i -2.6625:0.23125
+\r t
+\a mouseAddPt(t)
+\i -2.66875:0.3125
+\r t
+\a mouseAddPt(t)
+\i -2.8625:0.225
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\# Memory report: Maximum memory size now 793 MB at UTC 2022.10.26 17:42:05.783
+\a schHiDelete()
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -2.8125:0.3125
+\r t
+\a _schHiToolbarRotate('previous)
+\p > 
+\a mouseAddPt(t)
+\i -2.83125:0.28125
+\r t
+\a mouseAddPt(t)
+\i -2.79375:0.3125
+\r t
+\a mouseAddPt(t)
+\i -2.7625:0.475
+\r t
+\a mouseAddPt(t)
+\i -2.83125:0.375
+\r t
+\a mouseAddPt(t)
+\i -2.83125:0.31875
+\r t
+\a mouseAddPt(t)
+\i -2.775:0.35
+\r t
+\a schCmdOption()
+\r nil
+\a cancelEnterFun()
+\r t
+\r nil
+\# Memory report: Maximum memory size now 810 MB at UTC 2022.10.26 17:42:25.964
+\a schHiMove()
+\p > 
+\a hiZoomInAtMouse()
+\i -2.75:0.4375
+\r t
+\a mouseAddPt(t)
+\i -2.83125:0.4125
+\r t
+\a mouseAddPt(t)
+\i -2.74375:0.38125
+\r t
+\a mouseAddPt(t)
+\i -2.81875:0.275
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\# Memory report: Maximum memory size now 830 MB at UTC 2022.10.26 17:42:45.892
+\a mouseAddPt(t)
+\i -2.625:0.30625
+\r t
+\a mouseAddPt(t)
+\i -2.84375:0.3125
+\r t
+\a mouseAddPt(t)
+\i -2.24375:0.55625
+\r t
+\a mouseAddPt(t)
+\i -2.24375:0.1125
+\r t
+\# Memory report: Maximum memory size now 802 MB at UTC 2022.10.26 17:42:55.784
+\a mouseAddPt(t)
+\i -1.8875:0.3625
+\r t
+\a mouseAddPt(t)
+\i -2.25:0.375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i -2.5625:0.3125
+\r t
+\a hiZoomInAtMouse()
+\i -1.5:0.375
+\r t
+\a hiZoomOutAtMouse()
+\i -1.875:0.1875
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt(t)
+\i -1.59375:0.35625
+\r t
+\# Memory report: Maximum memory size now 828 MB at UTC 2022.10.26 17:43:05.964
+\a mouseAddPt(t)
+\i -1.89375:0.35625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i -3.375:-0.25
+\r t
+\a hiZoomOutAtMouse()
+\i -2:0.125
+\r t
+\a hiZoomInAtMouse()
+\i -1.6875:0.5
+\r t
+\a hiZoomOutAtMouse()
+\i -1.6875:0.5
+\r t
+\a hiDynamicPanGrabbing()
+\i -1.5375:-0.01875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1.5375:-0.025
+\a hiZoomIn(window(3) list(-3.95625:-1.25625 -0.03125:1.68125))
+\r t
+\r t
+\r t
+\# Available memory:            422 MB at UTC 2022.10.26 17:43:15.224
+\# Memory report: Maximum memory size now 856 MB at UTC 2022.10.26 17:43:15.224
+\a hiZoomIn()
+\i -1.25:0.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1.25:0.1875
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i -1.25:0.1875
+\r t
+\a hiZoomInAtMouse()
+\i -1.25:0.1875
+\r t
+\a hiZoomInAtMouse()
+\i -1.25:0.1875
+\r t
+\a hiZoomInAtMouse()
+\i -1.25:0.1875
+\r t
+\a hiZoomInAtMouse()
+\i -1.25:0.1875
+\r t
+\a hiZoomInAtMouse()
+\i -1.25:0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i -1.25:0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i -1.25:0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i -1.25:0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i -1.3125:0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i -1.25:0.25
+\r t
+\a hiZoomOutAtMouse()
+\i -1.3125:0.25
+\r t
+\a hiZoomOutAtMouse()
+\i -1.3125:0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i -1.25:0.25
+\r t
+\a hiZoomOutAtMouse()
+\i -1:0.3125
+\r t
+\a hiZoomInAtMouse()
+\i -0.9375:0.25
+\r t
+\a hiZoomOutAtMouse()
+\i -0.9375:0.25
+\r t
+\a hiZoomOutAtMouse()
+\i -0.9375:0.25
+\r t
+\a hiZoomInAtMouse()
+\i -2.375:0.625
+\r t
+\a hiZoomInAtMouse()
+\i -2.375:0.625
+\r t
+\a hiZoomInAtMouse()
+\i -2.375:0.625
+\r t
+\a hiZoomOutAtMouse()
+\i -2.5625:0.5625
+\r t
+\a hiZoomOutAtMouse()
+\i -2.5625:0.5
+\r t
+\a hiZoomOutAtMouse()
+\i -2.5625:0.5
+\r t
+\a hiZoomInAtMouse()
+\i -3.0625:0.3125
+\r t
+\a hiZoomInAtMouse()
+\i -3.125:0.125
+\r t
+\a hiDynamicPanGrabbing()
+\i -2.8875:0.13125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.89375:0.13125
+\a hiZoomIn(window(3) list(-3.65:-0.63125 -1.2:1.2))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i -2:0.125
+\r t
+\a hiZoomOutAtMouse()
+\i -1.9375:0.125
+\r t
+\a hiZoomOutAtMouse()
+\i -2:0.1875
+\r t
+\a schDirectEdit(1)
+\i -1.0625:1
+\# Direct Edit. Area selection.
+\i -1.0625:1
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1.375:0.875
+\r t
+\r nil
+\a hiDynamicPanGrabbing()
+\i -1.2375:0.48125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1.2375:0.4875
+\a hiZoomIn(window(3) list(-4.45:-1.74375 0.4625:1.93125))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i -2.25:0.1875
+\r t
+\# Memory report: Maximum memory size now 875 MB at UTC 2022.10.26 17:43:34.965
+\a hiZoomInAtMouse()
+\i -2.0625:0.8125
+\r t
+\a hiZoomInAtMouse()
+\i -2.0625:0.6875
+\r t
+\a hiZoomOutAtMouse()
+\i -2.0625:0.6875
+\r t
+\a hiZoomOutAtMouse()
+\i -2.0625:0.6875
+\r t
+\a hiZoomOutAtMouse()
+\i -2.125:0.6875
+\r t
+\a hiDynamicPanGrabbing()
+\i -1.99375:0.8375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1.99375:0.8375
+\a hiZoomIn(window(3) list(-4.49375:-1.225 0.41875:2.45))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i -2:1.3125
+\r t
+\a schSingleSelectPt()
+\i -2.1875:1.1875
+\r t
+\a schExtendSelectPt()
+\i -2.25:1.125
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schHiObjectProperty()
+\r t
+\# Memory report: Maximum memory size now 849 MB at UTC 2022.10.26 17:44:54.964
+\a _hiFormApplyCB(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a hiDynamicPanGrabbing()
+\i -1.76875:1.06875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1.7625:1.06875
+\a hiZoomIn(window(3) list(-3.2125:-0.49375 -0.75625:1.34375))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i -2.5:0.1875
+\r t
+\a hiZoomOutAtMouse()
+\i -2.125:0.375
+\r t
+\a hiZoomInAtMouse()
+\i -3.0625:-0.1875
+\r t
+\a hiZoomInAtMouse()
+\i -2.1875:0.1875
+\r t
+\a schSingleSelectPt()
+\i -2.875:0.3125
+\r t
+\a schHiDelete()
+\p > 
+\a mouseAddPt(t)
+\i -2.8625:0.325
+\r t
+\a mouseAddPt(t)
+\i -2.86875:0.3125
+\r t
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\a mouseAddPt(t)
+\i -1.59375:0.375
+\r t
+\a mouseAddPt(t)
+\i -1.59375:0.35625
+\r t
+\a mouseAddPt(t)
+\i -1.58125:0.33125
+\r t
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("basic" "noConn" "symbol")
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("basic" "noConn" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i -1.6125:0.38125
+\r t
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\# Memory report: Maximum memory size now 871 MB at UTC 2022.10.26 17:46:43.965
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -1.125:0.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.1875:-0.25
+\r t
+\r t
+\# Memory report: Maximum memory size now 853 MB at UTC 2022.10.26 17:46:53.965
+\a geSingleSelectBox()
+\i -1.875:0.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2:0.25
+\r t
+\r nil
+\a mouseAddPt(t)
+\i -1.8125:0.70625
+\r t
+\a schHiCreateWire(0.0)
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\# Memory report: Maximum memory size now 887 MB at UTC 2022.10.26 17:48:33.965
+\i ddsServSelect("basic" "vdc" "symbol")
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\# Available memory:            594 MB at UTC 2022.10.26 17:49:23.965
+\# Memory report: Maximum memory size now 1,030 MB at UTC 2022.10.26 17:49:23.965
+\# Available memory:            339 MB at UTC 2022.10.26 17:49:33.965
+\# Memory report: Maximum memory size now 775 MB at UTC 2022.10.26 17:49:33.965
+\# Available memory:          2,002 MB at UTC 2022.10.26 17:49:43.964
+\# Memory report: Maximum memory size now 2,437 MB at UTC 2022.10.26 17:49:43.964
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -2.25:0.6875
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schSingleSelectPt()
+\i -1.3125:0.9375
+\r nil
+\# Memory report: Maximum memory size now 2,338 MB at UTC 2022.10.26 17:51:12.965
+\# Available memory:          1,510 MB at UTC 2022.10.26 17:51:42.965
+\# Memory report: Maximum memory size now 1,946 MB at UTC 2022.10.26 17:51:42.965
+\a hiResizeWindow(swindow(2) list(126:72 988:688))
+\r t
+\a schHiCreateInst()
+\p > 
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a schHiCreateInst()
+\r t
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("analogLib" "vdc" "symbol")
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\i ddsServSelect("analogLib" "vpwl" "symbol")
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\i ddsServSelect("analogLib" "" "")
+\i ddsServSelect("analogLib" "vpwl" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\# Memory report: Maximum memory size now 1,823 MB at UTC 2022.10.26 17:53:02.964
+\# Available memory:          1,256 MB at UTC 2022.10.26 17:53:12.964
+\# Memory report: Maximum memory size now 1,692 MB at UTC 2022.10.26 17:53:12.964
+\# Memory report: Maximum memory size now 1,605 MB at UTC 2022.10.26 17:53:52.964
+\a cancelEnterFun(schCreateInstForm)
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -1.875:0.1875
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\# Available memory:          1,044 MB at UTC 2022.10.26 17:54:02.966
+\# Memory report: Maximum memory size now 1,480 MB at UTC 2022.10.26 17:54:02.966
+\# Memory report: Maximum memory size now 1,434 MB at UTC 2022.10.26 17:54:12.965
+\# Memory report: Maximum memory size now 1,396 MB at UTC 2022.10.26 17:54:42.964
+\a hiFormCancel(schObjPropForm) 
+\r t
+\# Available memory:            912 MB at UTC 2022.10.26 17:54:52.965
+\# Memory report: Maximum memory size now 1,348 MB at UTC 2022.10.26 17:54:52.965
+\a schSingleSelectPt()
+\i -1.5625:0.6875
+\r nil
+\# Available memory:            819 MB at UTC 2022.10.26 17:55:12.965
+\# Memory report: Maximum memory size now 1,255 MB at UTC 2022.10.26 17:55:12.965
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i -2.23125:0.74375
+\r t
+\a mouseAddPt(t)
+\i -2.1375:0.73125
+\r t
+\# Available memory:            703 MB at UTC 2022.10.26 17:55:22.966
+\# Memory report: Maximum memory size now 1,140 MB at UTC 2022.10.26 17:55:22.966
+\a mouseAddPt(t)
+\i -2:0.71875
+\r t
+\a mouseAddPt(t)
+\i -2.00625:0.925
+\r t
+\a mouseAddPt(t)
+\i -2.2375:0.925
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt(t)
+\i -2.24375:-0.0625
+\r t
+\a mouseAddPt(t)
+\i -2.0625:-0.05625
+\r t
+\a mouseAddPt(t)
+\i -2.075:-0.2625
+\r t
+\a mouseAddPt(t)
+\i -2.25625:-0.25625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\# Available memory:            611 MB at UTC 2022.10.26 17:56:01.964
+\# Memory report: Maximum memory size now 1,047 MB at UTC 2022.10.26 17:56:01.964
+\# Available memory:            537 MB at UTC 2022.10.26 17:56:11.964
+\# Memory report: Maximum memory size now 974 MB at UTC 2022.10.26 17:56:11.964
+\a schSingleSelectPt()
+\i -1.875:0.25
+\r t
+\a schHiObjectProperty()
+\r t
+\# Memory report: Maximum memory size now 949 MB at UTC 2022.10.26 17:56:21.814
+\a hiFormCancel(schObjPropForm)
+\r t
+\# Available memory:            466 MB at UTC 2022.10.26 17:56:41.964
+\# Memory report: Maximum memory size now 902 MB at UTC 2022.10.26 17:56:41.965
+\a schSingleSelectPt()
+\i -1.4375:-0.125
+\r nil
+\# Memory report: Maximum memory size now 879 MB at UTC 2022.10.26 17:57:41.964
+\# Available memory:            374 MB at UTC 2022.10.26 17:58:01.964
+\# Memory report: Maximum memory size now 811 MB at UTC 2022.10.26 17:58:01.964
+\# Memory report: Maximum memory size now 841 MB at UTC 2022.10.26 17:58:11.965
+\# Available memory:            464 MB at UTC 2022.10.26 17:58:21.965
+\# Memory report: Maximum memory size now 900 MB at UTC 2022.10.26 17:58:21.965
+\# Memory report: Maximum memory size now 924 MB at UTC 2022.10.26 17:58:31.965
+\# Memory report: Maximum memory size now 902 MB at UTC 2022.10.26 17:59:01.965
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\# Memory report: Maximum memory size now 877 MB at UTC 2022.10.26 18:00:41.965
+\a mouseAddPt(t)
+\i -2.6375:0.34375
+\r t
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("basic" "" "")
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\i ddsServSelect("basic" "GND" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\i ddsServSelect("basic" "" "")
+\i ddsServSelect("basic" "GND" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i -3.00625:0.35
+\r t
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\# Available memory:            390 MB at UTC 2022.10.26 18:01:10.966
+\# Memory report: Maximum memory size now 826 MB at UTC 2022.10.26 18:01:10.966
+\a schSingleSelectPt()
+\i -2.75:0.375
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\# Memory report: Maximum memory size now 801 MB at UTC 2022.10.26 18:01:40.966
+\a schObjPropForm->t1->value="0"
+\r "0"
+\# Available memory:            662 MB at UTC 2022.10.26 18:01:50.965
+\# Memory report: Maximum memory size now 1,100 MB at UTC 2022.10.26 18:01:50.965
+\a schObjPropForm->t2->value="0.5n"
+\r "0.5n"
+\# Memory report: Maximum memory size now 1,132 MB at UTC 2022.10.26 18:02:00.965
+\a schObjPropForm->t1->value="0 "
+\r "0 "
+\a schObjPropForm->tvpairs->value=4
+\r 4
+\# Memory report: Maximum memory size now 1,106 MB at UTC 2022.10.26 18:02:10.965
+\# Memory report: Maximum memory size now 1,054 MB at UTC 2022.10.26 18:02:20.965
+\a schObjPropForm->t3->value="1"
+\r "1"
+\# Available memory:            566 MB at UTC 2022.10.26 18:02:30.965
+\# Memory report: Maximum memory size now 1,005 MB at UTC 2022.10.26 18:02:30.965
+\a schObjPropForm->v3->value="0.9 V"
+\r "0.9 V"
+\a schObjPropForm->t3->value="1 n"
+\r "1 n"
+\# Available memory:            656 MB at UTC 2022.10.26 18:02:40.964
+\# Memory report: Maximum memory size now 1,095 MB at UTC 2022.10.26 18:02:40.964
+\# Memory report: Maximum memory size now 1,065 MB at UTC 2022.10.26 18:03:00.965
+\# Memory report: Maximum memory size now 1,039 MB at UTC 2022.10.26 18:03:10.965
+\# Memory report: Maximum memory size now 1,063 MB at UTC 2022.10.26 18:03:20.964
+\a schObjPropForm->t4->value="1.5n"
+\r "1.5n"
+\a hiFormDone(schObjPropForm)
+\r t
+\# Available memory:            594 MB at UTC 2022.10.26 18:03:30.508
+\# Memory report: Maximum memory size now 1,033 MB at UTC 2022.10.26 18:03:30.508
+\a hiResizeWindow(swindow(2) list(89:74 951:690))
+\r t
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a _schHiSaveAs()
+\p > 
+\a hiiSetCurrentForm('_schHiSaveAsForm)
+\r t
+\a hiFormDone(_schHiSaveAsForm)
+\r t
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: Schematics
+\r t
+\# Available memory:            465 MB at UTC 2022.10.26 18:03:40.964
+\# Memory report: Maximum memory size now 904 MB at UTC 2022.10.26 18:03:40.965
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\o Loading viva.cxt 
+\w *WARNING* The Virtuoso Analog Design Environment (ADE) creates a user interface (UI) to match the features of the particular
+\w version of MMSIM you are using. The software could not find the 'feature file' in the MMSIM hierarchy that lists the features
+\w available in this version of MMSIM. You might be using a wrapper script around spectre such that 'which spectre' returns
+\w your wrapper script and not spectre in the MMSIM hierarchy. For now, ADE will create a UI to match the latest version
+\w of spectre. If you are using an older version and do not want to see the UI for features that are not available in
+\w that version, you can set the following variable according to spectre version you are using:
+\w setenv  SPECTRE_FEATURE_FILE /home/pathForMMSIM/tools/spectre/etc/files/spectre.dat
+\w 
+\o Loading spectrei.cxt 
+\# Current Window: window(4)
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Available memory:            358 MB at UTC 2022.10.26 18:03:50.713
+\# Memory report: Maximum memory size now 868 MB at UTC 2022.10.26 18:03:50.713
+\# Memory report: using         516 MB, process size 2,187 MB at UTC 2022.10.26 18:03:51.210
+\r t
+\# Available memory:            421 MB at UTC 2022.10.26 18:04:00.964
+\# Memory report: Maximum memory size now 938 MB at UTC 2022.10.26 18:04:00.964
+\a sevChooseSimulator('sevSession1)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm1)
+\r t
+\a sevSimulatorForm1->simulator->value="hspiceD"
+\r "hspiceD"
+\# Available memory:            584 MB at UTC 2022.10.26 18:04:10.966
+\# Memory report: Maximum memory size now 1,101 MB at UTC 2022.10.26 18:04:10.966
+\a _hiFormApplyCB(sevSimulatorForm1)
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: Schematics
+\# Current Window: window(4)
+\o Loading hspiceD.cxt 
+\o INFO (ADE-1104): You are changing the simulator. All options that can be recognized
+\o      by the new simulator will be retained. All other options will be ignored.
+\o      You will not be warned about any ignored option. Be sure to check all your
+\o      forms (Analysis, Options, etc) to verify you have the setup you require 
+\r t
+\a hiFormDone(sevSimulatorForm1)
+\r t
+\r t
+\a sevEditModels('sevSession1)
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\r t
+\a hiiSetCurrentForm('editModelsForm)
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "false")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "true")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 1 "/ubc/ece/data/cmc2/kits/ncsu_pdk/FreePDK15/hspice/models/fet.inc")
+\r t
+\# Memory report: Maximum memory size now 1,061 MB at UTC 2022.10.26 18:05:10.196
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 2 "CMG")
+\r t
+\a _hiFormApplyCB(editModelsForm)
+\r t
+\a hiFormDone(editModelsForm)
+\r t
+\# Available memory:            523 MB at UTC 2022.10.26 18:05:19.964
+\a sevCopyCellViewVariables('sevSession1 ?copyCV t)
+\r t
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\# Memory report: Maximum memory size now 1,025 MB at UTC 2022.10.26 18:05:29.965
+\a sevChangeOutsOnSchematic('sevSession1 'plot)
+\o INFO (SCH-1170): Extracting "buffer schematic"
+\r t
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a astiCancelSelect(hiGetCurrentWindow())
+\r unbound
+\a schSingleSelectPt()
+\i -1.75:0.5625
+\r nil
+\a schHiCreateWireLabel()
+\p > 
+\a hiiSetCurrentForm('schCreateWireLabelForm)
+\r t
+\a schCreateWireLabelForm->label->value="OUT"
+\r "OUT"
+\a hiiToggleEnterForm(schCreateWireLabelForm)
+\r t
+\a mouseAddPt(t)
+\i -1.675:0.36875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateNoteLabel()
+\p > 
+\a hiiSetCurrentForm('schCreateNoteLabelForm)
+\r t
+\a hiiToggleEnterForm(schCreateNoteLabelForm) 
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateNoteLabel()
+\p > 
+\a hiiToggleEnterForm(schCreateNoteLabelForm) 
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWireLabel()
+\p > 
+\a hiiSetCurrentForm('schCreateWireLabelForm)
+\r t
+\a schCreateWireLabelForm->label->value="IN"
+\r "IN"
+\a hiiToggleEnterForm(schCreateWireLabelForm)
+\r t
+\a mouseAddPt(t)
+\i -2.6125:0.525
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "buffer schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\o INFO (SCH-1181): "ELEC402 buffer schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(4))
+\# Current Window: window(4)
+\r t
+\a sevTableSelectRows(sevWindowForm1->varListBox 0)
+\r t
+\a (sevFindSelectedVars 'sevSession1)
+\r nil
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->t3->value="1n s"
+\r "1n s"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i -2.75:0.3125
+\r t
+\a schHiObjectProperty()
+\r t
+\# Available memory:            475 MB at UTC 2022.10.26 18:06:38.964
+\a schObjPropForm->t3->value="1n"
+\r "1n"
+\a _hiFormApplyCB(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schSingleSelectPt()
+\i -2.6875:0.3125
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schSingleSelectPt()
+\i -2.8125:0.25
+\r t
+\a schHiObjectProperty()
+\r t
+\a schSingleSelectPt()
+\i -2.875:0.3125
+\r t
+\a schSingleSelectPt()
+\i -2.875:0.3125
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiSetCurrentWindow(window(4))
+\# Current Window: window(4)
+\r t
+\a sevTableSelectRows(sevWindowForm1->varListBox nil)
+\r t
+\a sevTableSelectRows(sevWindowForm1->varListBox 0)
+\r t
+\a (sevDeleteSelectedVars 'sevSession1)
+\r t
+\a sevChangeOutsOnSchematic('sevSession1 'plot)
+\o INFO (SCH-1170): Extracting "buffer schematic"
+\r t
+\# Memory report: Maximum memory size now 1,002 MB at UTC 2022.10.26 18:07:08.964
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -1.6875:0.4375
+\i -1.6875:0.4375
+\r t
+\a schSingleSelectPt()
+\i -2.6875:0.5
+\i -2.6875:0.5
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schNamePopUp)
+\r t
+\a astiCancelSelect(hiGetCurrentWindow())
+\r unbound
+\a schSingleSelectPt()
+\i -1.875:0.125
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->c->value="0 F"
+\r "0 F"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "buffer schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\o INFO (SCH-1181): "ELEC402 buffer schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(4))
+\# Current Window: window(4)
+\r t
+\a (sevEditSelectedAnas 'sevSession1)
+\p > 
+\a _asii_hspiceD1_analysis_form->tran_start->value="0"
+\r "0"
+\a _asii_hspiceD1_analysis_form->tran_stop->value="2n"
+\r "2n"
+\a _asii_hspiceD1_analysis_form->tran_step->value="100f"
+\r "100f"
+\a hiFormApply(_asii_hspiceD1_analysis_form)
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\r t
+\a hiFormDone(_asii_hspiceD1_analysis_form)
+\r t
+\r t
+\a sevNetlistAndRun('sevSession1)
+\o Delete psf data in /ubc/ece/home/ugrads/a/abeilles/simulation/buffer/hspiceD/schematic/psf.
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Oct 26 11:07:59 2022
+\o Loading json.cxt 
+\o End netlisting Oct 26 11:07:59 2022
+\o Loading monte.cxt 
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          2.0s (2.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o *Warning* The version of the Hspice simulator that you are using may not
+\o           support the generation of PSF output on Linux. If you are having
+\o           trouble viewing simulation results, please contact Hspice customer
+\o           support to identify the version that supports this capability.
+\o simulate...
+\o Loading paraplot.cxt 
+\r t
+\# Current Window: window(5)
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\# Current Window: window(6)
+\a rdbLoadResults("sevSession1" "/ubc/ece/home/ugrads/a/abeilles/simulation/buffer/hspiceD/schematic/psf")
+\r t
+\# Available memory:            350 MB at UTC 2022.10.26 18:08:08.303
+\# Memory report: Maximum memory size now 908 MB at UTC 2022.10.26 18:08:08.303
+\# Current Window: window(7)
+\a hiResizeWindow(swindow(4) list(133:124 927:612))
+\r t
+\a hiSetCurrentWindow(window(6))
+\# Current Window: window(6)
+\r t
+\# Available memory:            388 MB at UTC 2022.10.26 18:08:27.964
+\# Memory report: Maximum memory size now 958 MB at UTC 2022.10.26 18:08:27.964
+\# Available memory:            680 MB at UTC 2022.10.26 18:08:37.862
+\# Memory report: Maximum memory size now 1,251 MB at UTC 2022.10.26 18:08:37.862
+\a hiResizeWindow(swindow(4) list(-3:46 991:721))
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a hiSetCurrentWindow(window(4))
+\# Current Window: window(4)
+\r t
+\# Memory report: Maximum memory size now 1,215 MB at UTC 2022.10.26 18:10:47.964
+\# Available memory:            601 MB at UTC 2022.10.26 18:10:57.964
+\# Memory report: Maximum memory size now 1,177 MB at UTC 2022.10.26 18:10:57.964
+\a hiResizeWindow(swindow(3) list(193:49 885:524))
+\r t
+\# Memory report: Maximum memory size now 1,208 MB at UTC 2022.10.26 18:11:57.965
+\a sevChooseSimulator('sevSession1)
+\p > 
+\# Memory report: Maximum memory size now 1,181 MB at UTC 2022.10.26 18:12:27.965
+\# Available memory:            512 MB at UTC 2022.10.26 18:13:27.964
+\# Memory report: Maximum memory size now 1,089 MB at UTC 2022.10.26 18:13:27.964
+\# Available memory:            574 MB at UTC 2022.10.26 18:13:37.964
+\# Memory report: Maximum memory size now 1,151 MB at UTC 2022.10.26 18:13:37.964
+\# Memory report: Maximum memory size now 1,115 MB at UTC 2022.10.26 18:13:47.964
+\# Memory report: Maximum memory size now 1,139 MB at UTC 2022.10.26 18:14:17.964
+\# Memory report: Maximum memory size now 1,114 MB at UTC 2022.10.26 18:16:07.965
+\# Available memory:            513 MB at UTC 2022.10.26 18:17:17.965
+\# Memory report: Maximum memory size now 1,090 MB at UTC 2022.10.26 18:17:17.965
+\a hiiSetCurrentForm('sevSimulatorForm1)
+\r t
+\a hiFormCancel(sevSimulatorForm1)
+\r t
+\r nil
+\a hiResizeWindow(swindow(2) list(84:105 946:721))
+\r t
+\a hiResizeWindow(swindow(3) list(164:0 856:475))
+\r t
+\a hiResizeWindow(swindow(3) list(131:0 823:475))
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -1:-0.0625
+\r nil
+\a schHiMousePopUp()
+\i -1.1875:-0.125
+\r t
+\a hiPopupDown(schNonePopUp)
+\r t
+\a hiSetCurrentWindow(window(4))
+\# Current Window: window(4)
+\r t
+\# Memory report: Maximum memory size now 1,059 MB at UTC 2022.10.26 18:18:26.964
+\a hiSetCurrentWindow(window(6))
+\# Current Window: window(6)
+\r t
+\# Available memory:            465 MB at UTC 2022.10.26 18:18:46.247
+\# Memory report: Maximum memory size now 1,031 MB at UTC 2022.10.26 18:19:05.964
+\a hiResizeWindow(swindow(4) list(-3:46 1381:721))
+\r t
+\a hiResizeWindow(window(1) list(0:257 1378:450))
+\r t
+\# Memory report: Maximum memory size now 1,062 MB at UTC 2022.10.26 18:21:23.964
+\a _ddtExecuteAction(awvGetCurrentWindow()->vivaSession "cut")
+\r t
+\# Available memory:            370 MB at UTC 2022.10.26 18:23:02.964
+\# Memory report: Maximum memory size now 951 MB at UTC 2022.10.26 18:23:02.964
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -1.1875:0.25
+\r nil
+\a schSingleSelectPt()
+\i -2.5:0.125
+\r t
+\a schSingleSelectPt()
+\i -2.75:0
+\r nil
+\a schSingleSelectPt()
+\i -2.6875:0.5
+\r t
+\a schSingleSelectPt()
+\i -2.875:0.75
+\r nil
+\a schHiMousePopUp()
+\i -1.875:0.1875
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schSingleSelectPt()
+\i -1.75:0.0625
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->c->value="1f F"
+\r "1f F"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schSingleSelectPt()
+\i -1.0625:0.1875
+\r nil
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "buffer schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\o INFO (SCH-1181): "ELEC402 buffer schematic" saved.
+\r t
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\r t
+\a hiSetCurrentWindow(window(6))
+\# Current Window: window(6)
+\r t
+\a hiResizeWindow(swindow(4) list(619:151 1413:639))
+\r t
+\a hiSetCurrentWindow(window(4))
+\# Current Window: window(4)
+\r t
+\a hiResizeWindow(swindow(3) list(396:49 1088:524))
+\r t
+\a hiCloseWindow(swindow(3))
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\# Available memory:            437 MB at UTC 2022.10.26 18:24:31.966
+\# Memory report: Maximum memory size now 1,019 MB at UTC 2022.10.26 18:24:31.966
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(3)
+\r t
+\a schSingleSelectPt()
+\i -2.6875:0.5
+\r t
+\a mouseSubSelectPt()
+\i -1.6875:0.4375
+\r nil
+\a mouseSubSelectPt()
+\i -1.6875:0.4375
+\r nil
+\# Available memory:            498 MB at UTC 2022.10.26 18:24:41.627
+\# Memory report: Maximum memory size now 1,080 MB at UTC 2022.10.26 18:24:41.627
+\a schSingleSelectPt()
+\i -1.75:0.4375
+\r t
+\a schAddSelectPt()
+\i -2.6875:0.5
+\r t
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(8)
+\w *WARNING* The Virtuoso Analog Design Environment (ADE) creates a user interface (UI) to match the features of the particular
+\w version of MMSIM you are using. The software could not find the 'feature file' in the MMSIM hierarchy that lists the features
+\w available in this version of MMSIM. You might be using a wrapper script around spectre such that 'which spectre' returns
+\w your wrapper script and not spectre in the MMSIM hierarchy. For now, ADE will create a UI to match the latest version
+\w of spectre. If you are using an older version and do not want to see the UI for features that are not available in
+\w that version, you can set the following variable according to spectre version you are using:
+\w setenv  SPECTRE_FEATURE_FILE /home/pathForMMSIM/tools/spectre/etc/files/spectre.dat
+\w 
+\r t
+\# Memory report: Maximum memory size now 1,058 MB at UTC 2022.10.26 18:24:51.964
+\a hiResizeWindow(swindow(5) list(608:246 1300:721))
+\r t
+\a sevChooseSimulator('sevSession2)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm2)
+\r t
+\a sevSimulatorForm2->simulator->value="hspiceD"
+\r "hspiceD"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\# Available memory:            398 MB at UTC 2022.10.26 18:25:01.965
+\# Memory report: Maximum memory size now 980 MB at UTC 2022.10.26 18:25:01.965
+\# Memory report: Maximum memory size now 1,002 MB at UTC 2022.10.26 18:25:21.964
+\a (hiFileDialogSetSelection _hiFileSelector nil 'cancel)
+\r t
+\a (hiFileDialogDone _hiFileSelector nil)
+\r t
+\r nil
+\a _hiFormApplyCB(sevSimulatorForm2)
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: Schematics
+\# Current Window: window(8)
+\o INFO (ADE-1104): You are changing the simulator. All options that can be recognized
+\o      by the new simulator will be retained. All other options will be ignored.
+\o      You will not be warned about any ignored option. Be sure to check all your
+\o      forms (Analysis, Options, etc) to verify you have the setup you require 
+\r t
+\a sevChooseSimulator('sevSession2)
+\r t
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\# Memory report: Maximum memory size now 972 MB at UTC 2022.10.26 18:26:21.964
+\# Memory report: Maximum memory size now 952 MB at UTC 2022.10.26 18:26:41.965
+\# Available memory:            360 MB at UTC 2022.10.26 18:26:51.964
+\# Available memory:            452 MB at UTC 2022.10.26 18:27:01.965
+\# Memory report: Maximum memory size now 1,034 MB at UTC 2022.10.26 18:27:01.965
+\# Available memory:            353 MB at UTC 2022.10.26 18:27:21.965
+\# Memory report: Maximum memory size now 934 MB at UTC 2022.10.26 18:27:21.965
+\a (hiFileDialogSetSelection _hiFileSelector nil 'cancel)
+\r t
+\a (hiFileDialogDone _hiFileSelector nil)
+\r t
+\r nil
+\# Available memory:            474 MB at UTC 2022.10.26 18:27:41.964
+\# Memory report: Maximum memory size now 1,055 MB at UTC 2022.10.26 18:27:41.964
+\a sevSimulatorForm2->projectDir->value="./simulation"
+\r "./simulation"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector nil 'cancel)
+\r t
+\a (hiFileDialogDone _hiFileSelector nil)
+\r t
+\r nil
+\a _hiFormApplyCB(sevSimulatorForm2)
+\r t
+\a hiFormDone(sevSimulatorForm2)
+\r t
+\r t
+\a sevEditModels('sevSession2)
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\r t
+\a hiiSetCurrentForm('editModelsForm)
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 2 "")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "false")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "true")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 1 "/ubc/ece/data/cmc2/kits/ncsu_pdk/FreePDK15/hspice/models/fet.inc")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 2 "CMG")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\a _hiFormApplyCB(editModelsForm)
+\r t
+\a hiFormDone(editModelsForm)
+\r t
+\a sevEditModels('sevSession2)
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "false")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "true")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 1))")
+\r t
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\a hiFormCancel(editModelsForm)
+\r t
+\# Memory report: Maximum memory size now 1,022 MB at UTC 2022.10.26 18:28:50.964
+\a sevEditModels('sevSession2)
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "false")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "nil")
+\r t
+\a sevModelItemChanged(editModelsForm->modelLibraryNative "Global Model Files" 0 0 "true")
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 1))")
+\r t
+\r t
+\a sevModelSelectItems(editModelsForm->modelLibraryNative "'( (0 0))")
+\r t
+\a hiFormDone(editModelsForm)
+\r t
+\a sevCopyCellViewVariables('sevSession2 ?copyCV t)
+\o WARNING (ADE-1010): There are no variables in the cellview.
+\r t
+\a hiResizeWindow(swindow(5) list(664:211 1356:686))
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -2.5:0.5
+\r nil
+\a schSingleSelectPt()
+\i -2.6875:0.5
+\r t
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevCopyCellViewVariables('sevSession2 ?copyCV t)
+\o WARNING (ADE-1010): There are no variables in the cellview.
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -2.6875:0.5
+\r t
+\a schSingleSelectPt()
+\i -1.875:0.5625
+\r nil
+\a schSingleSelectPt()
+\i -1.625:0.4375
+\r t
+\a schSingleSelectPt()
+\i -1.75:0.4375
+\r t
+\a mouseSubSelectPt()
+\i -2.75:0.5
+\r nil
+\a schSingleSelectPt()
+\i -2.625:0.5625
+\r t
+\a schAddSelectPt()
+\i -2.5625:0.75
+\r t
+\a schAddSelectPt()
+\i -2.6875:0.4375
+\r t
+\a schAddSelectPt()
+\i -2.625:0.0625
+\r t
+\a schAddSelectPt()
+\i -2.5625:-0.0625
+\r t
+\a schAddSelectPt()
+\i -2.0625:0.375
+\r t
+\a schAddSelectPt()
+\i -1.6875:0.375
+\r t
+\a schAddSelectPt()
+\i -1.6875:0.4375
+\r t
+\a schAddSelectPt()
+\i -1.6875:0.375
+\r t
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevCopyCellViewVariables('sevSession2 ?copyCV t)
+\o WARNING (ADE-1010): There are no variables in the cellview.
+\r t
+\a sevEditSelectedVars('sevSession2)
+\p > 
+\a hiiSetCurrentForm('sevVariablesForm2)
+\r t
+\a sevVariablesForm2->name->value="IN"
+\r "IN"
+\a hiFormCancel(sevVariablesForm2)
+\r t
+\r nil
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -2.5:0.5
+\r nil
+\a schSingleSelectPt()
+\i -2.6875:0.5
+\r t
+\a schAddSelectPt()
+\i -1.6875:0.4375
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schMultiPopUp)
+\r t
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevEditSelectedVars('sevSession2)
+\p > 
+\a hiFormCancel(sevVariablesForm2)
+\r t
+\r nil
+\a sevCopyCellViewVariables('sevSession2 ?copyCV t)
+\o WARNING (ADE-1010): There are no variables in the cellview.
+\r t
+\a sevEditSelectedAnas('sevSession2)
+\p > 
+\a hiFormCancel(_asii_hspiceD3_analysis_form) 
+\r t
+\r nil
+\a hiResizeWindow(swindow(5) list(538:168 1230:643))
+\r t
+\# Available memory:            359 MB at UTC 2022.10.26 18:31:10.965
+\# Memory report: Maximum memory size now 941 MB at UTC 2022.10.26 18:31:10.965
+\a (sevEditSelectedAnas 'sevSession2)
+\p > 
+\a hiFormCancel(_asii_hspiceD3_analysis_form)
+\r t
+\r nil
+\a sevCopyCellViewVariables('sevSession2 ?copyCV t)
+\o WARNING (ADE-1010): There are no variables in the cellview.
+\r t
+\# Available memory:            432 MB at UTC 2022.10.26 18:31:20.965
+\# Memory report: Maximum memory size now 1,013 MB at UTC 2022.10.26 18:31:20.965
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -2.5:0.5
+\r nil
+\a schSingleSelectPt()
+\i -2.6875:0.5
+\r t
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevCopyCellViewVariables('sevSession2 ?copyCV t)
+\o WARNING (ADE-1010): There are no variables in the cellview.
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -2.8125:1
+\r nil
+\a schSingleSelectPt()
+\i -1.6875:0.4375
+\r t
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevChangeOutsOnSchematic('sevSession2 'plot)
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -1.6875:0.4375
+\i -1.6875:0.4375
+\r t
+\a schSingleSelectPt()
+\i -2.6875:0.5
+\i -2.6875:0.5
+\r t
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevCopyCellViewVariables('sevSession2 ?copyCV t)
+\o WARNING (ADE-1010): There are no variables in the cellview.
+\r t
+\a sevChangeOutsOnSchematic('sevSession2 'plot)
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -2.375:0.25
+\r nil
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\# Available memory:            352 MB at UTC 2022.10.26 18:31:59.965
+\# Memory report: Maximum memory size now 934 MB at UTC 2022.10.26 18:31:59.965
+\a sevTableSelectRows(sevOutForm2->outListBox 0)
+\r t
+\a sevTableSelectRows(sevOutForm2->outListBox '( 0 1 ))
+\r t
+\a (sevDeleteSelectedOuts 'sevSession2)
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -2.6875:0
+\r nil
+\a schSingleSelectPt()
+\i -2.625:-0.25
+\r nil
+\a schSingleSelectPt()
+\i -2.4375:0.1875
+\r nil
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevChangeOutsOnSchematic('sevSession2 'plot)
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -2.0625:0.75
+\i -2.0625:0.75
+\r t
+\a schSingleSelectPt()
+\i -2.0625:0.75
+\i -2.0625:0.75
+\r t
+\a schHiDescendRead()
+\p > modify_plot
+\a mouseAddPt(t)
+\i -2.05:0.74375
+\r t
+\a cancelEnterFun()
+\r t
+\r t
+\a schSingleSelectPt()
+\i -2.0625:0.75
+\i -2.0625:0.75
+\r t
+\a schSingleSelectPt()
+\i -1.9375:0.8125
+\r nil
+\a schSingleSelectPt()
+\i -2.0625:0.375
+\i -2.0625:0.375
+\r t
+\a schSingleSelectPt()
+\i -2.75:0.5
+\i -2.75:0.5
+\r t
+\a hiSetCurrentWindow(window(8))
+\# Current Window: window(8)
+\r t
+\a sevTableSelectRows(sevOutForm2->outListBox 0)
+\r t
+\a (sevDeleteSelectedOuts 'sevSession2)
+\r t
+\# Available memory:            392 MB at UTC 2022.10.26 18:32:59.466
+\# Memory report: Maximum memory size now 974 MB at UTC 2022.10.26 18:32:59.466
+\a sevTableSelectRows(sevOutForm2->outListBox nil)
+\r t
+\a sevEditSelectedAnas('sevSession2)
+\p > modify_plot
+\a _asii_hspiceD3_analysis_form->tran_start->value="0"
+\r "0"
+\a _asii_hspiceD3_analysis_form->tran_stop->value="2n"
+\r "2n"
+\a _asii_hspiceD3_analysis_form->tran_step->value="200f"
+\r "200f"
+\a hiFormDone(_asii_hspiceD3_analysis_form)
+\r t
+\r t
+\# Memory report: Maximum memory size now 955 MB at UTC 2022.10.26 18:33:39.966
+\a sevNetlistAndRun('sevSession2)
+\o Delete psf data in /ubc/ece/home/ugrads/a/abeilles/elec402/assignment3/simulation/buffer/hspiceD/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Oct 26 11:33:46 2022
+\o End netlisting Oct 26 11:33:46 2022
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          1.0s (4.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o *Warning* The version of the Hspice simulator that you are using may not
+\o           support the generation of PSF output on Linux. If you are having
+\o           trouble viewing simulation results, please contact Hspice customer
+\o           support to identify the version that supports this capability.
+\o simulate...
+\r t
+\# Current Window: window(9)
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\# Current Window: window(10)
+\a rdbLoadResults("sevSession2" "./simulation/buffer/hspiceD/schematic/psf")
+\r t
+\# Current Window: window(11)
+\a hiResizeWindow(swindow(6) list(138:203 932:691))
+\r t
+\a hiResizeWindow(swindow(6) list(138:49 1280:691))
+\r t
+\a hiResizeWindow(swindow(6) list(138:38 1282:691))
+\r t
+\# Available memory:            351 MB at UTC 2022.10.26 18:34:09.130
+\# Memory report: Maximum memory size now 933 MB at UTC 2022.10.26 18:34:09.130
+\a hiSetCurrentWindow(window(10))
+\# Current Window: window(10)
+\r t
+\# Available memory:            402 MB at UTC 2022.10.26 18:34:18.964
+\# Memory report: Maximum memory size now 983 MB at UTC 2022.10.26 18:34:18.964
+\# Available memory:            360 MB at UTC 2022.10.26 18:34:48.964
+\# Memory report: Maximum memory size now 942 MB at UTC 2022.10.26 18:34:48.964
+\# Memory report: Maximum memory size now 970 MB at UTC 2022.10.26 18:34:58.830
+\a hiResizeWindow(swindow(6) list(9:38 1282:691))
+\r t
+\# Memory report: Maximum memory size now 942 MB at UTC 2022.10.26 18:35:48.964
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schHiMousePopUp()
+\i -1.9375:0.1875
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schSingleSelectPt()
+\i -1.875:0.125
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiSetCurrentWindow(window(10))
+\# Current Window: window(10)
+\r t
+\# Available memory:            399 MB at UTC 2022.10.26 18:36:37.964
+\# Memory report: Maximum memory size now 981 MB at UTC 2022.10.26 18:36:37.964
+\a hiResizeWindow(swindow(6) list(105:68 1378:721))
+\r t
+\# Available memory:            348 MB at UTC 2022.10.26 18:36:47.964
+\# Memory report: Maximum memory size now 930 MB at UTC 2022.10.26 18:36:47.964
+\# Available memory:            392 MB at UTC 2022.10.26 18:36:57.964
+\# Memory report: Maximum memory size now 974 MB at UTC 2022.10.26 18:36:57.964
+\a hiResizeWindow(swindow(6) list(105:17 1378:670))
+\r t
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -1.25:-0.125
+\r nil
+\# Memory report: Maximum memory size now 947 MB at UTC 2022.10.26 18:37:17.966
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\i ddsServSelect("US_8ths" "" "")
+\i ddsServSelect("analogLib" "" "")
+\i ddsServSelect("analogLib" "GND" "")
+\w *WARNING* (SCH-1162): Cell "GND" does not exist in library "analogLib".
+\# Available memory:            338 MB at UTC 2022.10.26 18:37:37.965
+\# Memory report: Maximum memory size now 920 MB at UTC 2022.10.26 18:37:37.965
+\i ddsServSelect("analogLib" "gnd" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\# Available memory:            390 MB at UTC 2022.10.26 18:37:47.964
+\# Memory report: Maximum memory size now 972 MB at UTC 2022.10.26 18:37:47.964
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -2.875:0.375
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\# Memory report: Maximum memory size now 939 MB at UTC 2022.10.26 18:37:57.964
+\# Memory report: Maximum memory size now 1,004 MB at UTC 2022.10.26 18:38:07.966
+\# Available memory:            353 MB at UTC 2022.10.26 18:38:17.965
+\# Memory report: Maximum memory size now 935 MB at UTC 2022.10.26 18:38:17.965
+\# Available memory:            419 MB at UTC 2022.10.26 18:38:27.965
+\# Memory report: Maximum memory size now 1,001 MB at UTC 2022.10.26 18:38:27.965
+\# Available memory:            350 MB at UTC 2022.10.26 18:38:37.964
+\# Memory report: Maximum memory size now 932 MB at UTC 2022.10.26 18:38:37.964
+\a hiFormCancel(schObjPropForm)
+\r t
+\a hiZoomInAtMouse()
+\i -1.625:0.625
+\r t
+\a hiZoomOutAtMouse()
+\i -1.6875:0.5625
+\r t
+\a hiZoomOutAtMouse()
+\i -1.75:0.5
+\r t
+\a hiZoomInAtMouse()
+\i -2.1875:1.25
+\r t
+\a schHiMousePopUp()
+\r t
+\a hiPopupDown(schInstPopUp)
+\r t
+\a schHiObjectProperty()
+\r t
+\a schAddProp()
+\r t
+\a hiiSetCurrentForm('schAddPropForm)
+\r t
+\a hiFormCancel(schAddPropForm)
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\# Memory report: Maximum memory size now 958 MB at UTC 2022.10.26 18:38:56.966
+\a hiFormCancel(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i -2.25:1.0625
+\r t
+\a schHiObjectProperty()
+\r t
+\# Memory report: Maximum memory size now 938 MB at UTC 2022.10.26 18:39:06.965
+\a hiFormCancel(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i -2.25:1.125
+\r t
+\a schSingleSelectPt()
+\i -1.5625:1.25
+\r nil
+\a schSingleSelectPt()
+\i -2.3125:1.125
+\r t
+\a schExtendSelectPt()
+\i -2.3125:1.125
+\r t
+\a schSingleSelectPt()
+\i -2.25:1.125
+\r t
+\a schSingleSelectPt()
+\i -1.8125:1.25
+\r nil
+\a schSingleSelectPt()
+\i -2.1875:1.1875
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\# Memory report: Maximum memory size now 958 MB at UTC 2022.10.26 18:40:05.360
+\a schSingleSelectPt()
+\i -3.0625:0.9375
+\r nil
+\a schSingleSelectPt()
+\i -2.1875:1.1875
+\r t
+\a schSingleSelectPt()
+\i -1.8125:1.4375
+\r nil
+\a schSingleSelectPt()
+\i -2.25:1.1875
+\r t
+\# Memory report: Maximum memory size now 937 MB at UTC 2022.10.26 18:40:14.964
+\a schHiDescendRead()
+\p > 
+\a hiiSetCurrentForm('schDescendForm)
+\r t
+\a hiFormCancel(schDescendForm)
+\r t
+\r t
+\a schSingleSelectPt()
+\i -1.75:1
+\r nil
+\a hiZoomOutAtMouse()
+\i -1.875:1.125
+\r t
+\a hiZoomOutAtMouse()
+\i -1.8125:-0.25
+\r t
+\a hiZoomInAtMouse()
+\i -1.9375:-0.3125
+\r t
+\a hiZoomInAtMouse()
+\i -2.0625:-0.3125
+\r t
+\a hiZoomInAtMouse()
+\i -2.125:-0.3125
+\r t
+\# Available memory:            384 MB at UTC 2022.10.26 18:40:44.964
+\# Memory report: Maximum memory size now 965 MB at UTC 2022.10.26 18:40:44.964
+\# Memory report: Maximum memory size now 936 MB at UTC 2022.10.26 18:41:04.965
+\# Available memory:            328 MB at UTC 2022.10.26 18:41:24.965
+\# Memory report: Maximum memory size now 910 MB at UTC 2022.10.26 18:41:24.965
+\# Available memory:            367 MB at UTC 2022.10.26 18:48:06.989
+\# Memory report: Maximum memory size now 949 MB at UTC 2022.10.26 18:48:07.107
+\# Available memory:            321 MB at UTC 2022.10.26 18:48:26.986
+\# Memory report: Maximum memory size now 903 MB at UTC 2022.10.26 18:48:26.986
+\# Available memory:            353 MB at UTC 2022.10.26 18:48:36.966
+\# Memory report: Maximum memory size now 934 MB at UTC 2022.10.26 18:48:36.967
+\# Memory report: Maximum memory size now 914 MB at UTC 2022.10.26 18:48:46.968
+\# Memory report: Maximum memory size now 937 MB at UTC 2022.10.26 18:52:16.966
+\# Available memory:            395 MB at UTC 2022.10.26 18:52:46.964
+\# Memory report: Maximum memory size now 976 MB at UTC 2022.10.26 18:52:46.965
+\# Memory report: Maximum memory size now 956 MB at UTC 2022.10.26 18:52:56.965
+\# Available memory:            337 MB at UTC 2022.10.26 18:53:56.973
+\# Memory report: Maximum memory size now 918 MB at UTC 2022.10.26 18:53:56.973
+\# Available memory:            642 MB at UTC 2022.10.26 18:54:06.964
+\# Memory report: Maximum memory size now 1,224 MB at UTC 2022.10.26 18:54:06.965
+\# Memory report: Maximum memory size now 1,174 MB at UTC 2022.10.26 18:54:16.965
+\# Available memory:            485 MB at UTC 2022.10.26 18:54:26.966
+\# Memory report: Maximum memory size now 1,067 MB at UTC 2022.10.26 18:54:26.966
+\# Available memory:            420 MB at UTC 2022.10.26 18:54:36.965
+\# Memory report: Maximum memory size now 1,002 MB at UTC 2022.10.26 18:54:36.965
+\# Available memory:            375 MB at UTC 2022.10.26 18:54:46.964
+\# Memory report: Maximum memory size now 956 MB at UTC 2022.10.26 18:54:46.964
+\# Available memory:            322 MB at UTC 2022.10.26 18:54:56.966
+\# Memory report: Maximum memory size now 904 MB at UTC 2022.10.26 18:54:56.966
+\# Available memory:            367 MB at UTC 2022.10.26 18:55:06.965
+\# Memory report: Maximum memory size now 949 MB at UTC 2022.10.26 18:55:06.965
+\# Memory report: Maximum memory size now 930 MB at UTC 2022.10.26 18:56:16.966
+\# Memory report: Maximum memory size now 957 MB at UTC 2022.10.26 18:56:56.965
+\# Memory report: Maximum memory size now 928 MB at UTC 2022.10.26 18:57:06.964
+\# Available memory:            327 MB at UTC 2022.10.26 18:57:26.964
+\# Memory report: Maximum memory size now 909 MB at UTC 2022.10.26 18:57:26.964
+\# Memory report: Maximum memory size now 929 MB at UTC 2022.10.26 18:57:46.970
+\# Available memory:            369 MB at UTC 2022.10.26 18:57:56.966
+\# Memory report: Maximum memory size now 950 MB at UTC 2022.10.26 18:57:56.966
+\# Available memory:            608 MB at UTC 2022.10.26 18:58:16.967
+\# Memory report: Maximum memory size now 1,190 MB at UTC 2022.10.26 18:58:16.967
+\# Available memory:            358 MB at UTC 2022.10.26 18:58:26.964
+\# Memory report: Maximum memory size now 940 MB at UTC 2022.10.26 18:58:26.964
+\# Available memory:            391 MB at UTC 2022.10.26 18:58:56.966
+\# Memory report: Maximum memory size now 973 MB at UTC 2022.10.26 18:58:56.966
+\# Memory report: Maximum memory size now 951 MB at UTC 2022.10.26 18:59:06.965
+\# Available memory:            356 MB at UTC 2022.10.26 18:59:36.965
+\# Memory report: Maximum memory size now 925 MB at UTC 2022.10.26 18:59:46.974
+\# Available memory:            419 MB at UTC 2022.10.26 18:59:56.974
+\# Memory report: Maximum memory size now 1,001 MB at UTC 2022.10.26 18:59:56.974
+\# Available memory:            369 MB at UTC 2022.10.26 19:00:06.965
+\# Memory report: Maximum memory size now 950 MB at UTC 2022.10.26 19:00:06.965
+\# Memory report: Maximum memory size now 969 MB at UTC 2022.10.26 19:00:27.045
+\# Memory report: Maximum memory size now 934 MB at UTC 2022.10.26 19:00:36.967
+\# Memory report: Maximum memory size now 967 MB at UTC 2022.10.26 19:01:06.964
+\# Memory report: Maximum memory size now 943 MB at UTC 2022.10.26 19:01:36.965
+\# Available memory:            415 MB at UTC 2022.10.26 19:01:56.966
+\# Memory report: Maximum memory size now 997 MB at UTC 2022.10.26 19:01:56.966
+\# Available memory:            336 MB at UTC 2022.10.26 19:02:06.244
+\# Memory report: Maximum memory size now 918 MB at UTC 2022.10.26 19:02:06.244
+\a hiResizeWindow(window(1) list(0:73 794:266))
+\r t
+\# Available memory:            568 MB at UTC 2022.10.26 19:02:15.965
+\# Memory report: Maximum memory size now 1,150 MB at UTC 2022.10.26 19:02:15.965
+\# Available memory:            403 MB at UTC 2022.10.26 19:02:25.966
+\# Memory report: Maximum memory size now 985 MB at UTC 2022.10.26 19:02:25.966
+\# Memory report: Maximum memory size now 961 MB at UTC 2022.10.26 19:02:38.467
+\a hiResizeWindow(window(1) list(0:250 1387:443))
+\r t
+\a hiResizeWindow(window(1) list(0:250 745:443))
+\r t
+\a hiResizeWindow(window(1) list(0:250 990:443))
+\r t
+\a hiResizeWindow(window(1) list(0:250 989:443))
+\r t
+\# Available memory:            350 MB at UTC 2022.10.26 19:02:48.965
+\# Memory report: Maximum memory size now 932 MB at UTC 2022.10.26 19:02:48.965
+\# Available memory:            578 MB at UTC 2022.10.26 19:02:58.967
+\# Memory report: Maximum memory size now 1,159 MB at UTC 2022.10.26 19:02:58.967
+\# Available memory:            324 MB at UTC 2022.10.26 19:03:08.972
+\# Memory report: Maximum memory size now 906 MB at UTC 2022.10.26 19:03:08.972
+\# Available memory:            684 MB at UTC 2022.10.26 19:03:21.027
+\# Memory report: Maximum memory size now 1,266 MB at UTC 2022.10.26 19:03:21.027
+\# Available memory:          1,001 MB at UTC 2022.10.26 19:03:30.970
+\# Memory report: Maximum memory size now 1,583 MB at UTC 2022.10.26 19:03:30.970
+\# Memory report: Maximum memory size now 1,664 MB at UTC 2022.10.26 19:03:40.965
+\# Available memory:            691 MB at UTC 2022.10.26 19:03:50.964
+\# Memory report: Maximum memory size now 1,273 MB at UTC 2022.10.26 19:03:50.964
+\# Memory report: Maximum memory size now 1,241 MB at UTC 2022.10.26 19:04:00.968
+\# Memory report: Maximum memory size now 1,269 MB at UTC 2022.10.26 19:04:10.966
+\# Available memory:            554 MB at UTC 2022.10.26 19:04:20.965
+\# Memory report: Maximum memory size now 1,136 MB at UTC 2022.10.26 19:04:20.965
+\# Available memory:            464 MB at UTC 2022.10.26 19:04:30.965
+\# Memory report: Maximum memory size now 1,046 MB at UTC 2022.10.26 19:04:30.965
+\# Available memory:            362 MB at UTC 2022.10.26 19:04:40.975
+\# Memory report: Maximum memory size now 943 MB at UTC 2022.10.26 19:04:40.975
+\# Available memory:            400 MB at UTC 2022.10.26 19:04:50.965
+\# Memory report: Maximum memory size now 981 MB at UTC 2022.10.26 19:04:50.965
+\# Available memory:            355 MB at UTC 2022.10.26 19:05:00.966
+\# Memory report: Maximum memory size now 937 MB at UTC 2022.10.26 19:05:00.966
+\# Available memory:            566 MB at UTC 2022.10.26 19:05:10.971
+\# Memory report: Maximum memory size now 1,147 MB at UTC 2022.10.26 19:05:10.971
+\# Memory report: Maximum memory size now 1,119 MB at UTC 2022.10.26 19:05:20.970
+\# Available memory:            494 MB at UTC 2022.10.26 19:05:30.966
+\# Memory report: Maximum memory size now 1,075 MB at UTC 2022.10.26 19:05:30.966
+\# Available memory:            377 MB at UTC 2022.10.26 19:05:40.965
+\# Memory report: Maximum memory size now 959 MB at UTC 2022.10.26 19:05:40.966
+\# Available memory:            458 MB at UTC 2022.10.26 19:05:50.965
+\# Memory report: Maximum memory size now 1,039 MB at UTC 2022.10.26 19:05:50.965
+\# Available memory:            356 MB at UTC 2022.10.26 19:06:00.973
+\# Memory report: Maximum memory size now 938 MB at UTC 2022.10.26 19:06:00.973
+\# Available memory:            527 MB at UTC 2022.10.26 19:06:20.967
+\# Memory report: Maximum memory size now 1,109 MB at UTC 2022.10.26 19:06:20.967
+\# Available memory:            456 MB at UTC 2022.10.26 19:06:30.970
+\# Memory report: Maximum memory size now 1,038 MB at UTC 2022.10.26 19:06:30.970
+\# Available memory:            384 MB at UTC 2022.10.26 19:06:50.965
+\# Memory report: Maximum memory size now 965 MB at UTC 2022.10.26 19:06:50.965
+\# Memory report: Maximum memory size now 938 MB at UTC 2022.10.26 19:07:20.967
+\# Memory report: Maximum memory size now 961 MB at UTC 2022.10.26 19:08:00.965
+\# Memory report: Maximum memory size now 984 MB at UTC 2022.10.26 19:08:30.965
+\# Memory report: Maximum memory size now 935 MB at UTC 2022.10.26 19:09:00.968
+\# Memory report: Maximum memory size now 965 MB at UTC 2022.10.26 19:09:30.967
+\# Memory report: Maximum memory size now 940 MB at UTC 2022.10.26 19:09:40.964
+\# Available memory:            347 MB at UTC 2022.10.26 19:10:20.965
+\# Available memory:            387 MB at UTC 2022.10.26 19:10:40.967
+\# Memory report: Maximum memory size now 969 MB at UTC 2022.10.26 19:10:40.968
+\# Memory report: Maximum memory size now 946 MB at UTC 2022.10.26 19:12:10.965
+\# Available memory:            454 MB at UTC 2022.10.26 19:12:20.966
+\# Memory report: Maximum memory size now 1,036 MB at UTC 2022.10.26 19:12:20.966
+\# Available memory:            374 MB at UTC 2022.10.26 19:12:30.964
+\# Memory report: Maximum memory size now 955 MB at UTC 2022.10.26 19:12:30.964
+\# Memory report: Maximum memory size now 936 MB at UTC 2022.10.26 19:13:10.966
+\# Memory report: Maximum memory size now 962 MB at UTC 2022.10.26 19:13:20.965
+\# Memory report: Maximum memory size now 943 MB at UTC 2022.10.26 19:13:30.965
+\# Memory report: Maximum memory size now 971 MB at UTC 2022.10.26 19:13:50.966
+\# Memory report: Maximum memory size now 949 MB at UTC 2022.10.26 19:14:10.965
+\# Available memory:            410 MB at UTC 2022.10.26 19:16:40.967
+\# Memory report: Maximum memory size now 991 MB at UTC 2022.10.26 19:16:40.967
+\# Available memory:            370 MB at UTC 2022.10.26 19:17:20.965
+\# Memory report: Maximum memory size now 952 MB at UTC 2022.10.26 19:17:20.965
+\# Memory report: Maximum memory size now 922 MB at UTC 2022.10.26 19:17:50.965
+\# Memory report: Maximum memory size now 957 MB at UTC 2022.10.26 19:18:00.965
+\# Memory report: Maximum memory size now 977 MB at UTC 2022.10.26 19:18:30.965
+\# Memory report: Maximum memory size now 957 MB at UTC 2022.10.26 19:18:40.965
+\# Memory report: Maximum memory size now 928 MB at UTC 2022.10.26 19:18:50.966
+\# Memory report: Maximum memory size now 966 MB at UTC 2022.10.26 19:19:10.966
+\# Memory report: Maximum memory size now 922 MB at UTC 2022.10.26 19:19:20.965
+\# Memory report: Maximum memory size now 967 MB at UTC 2022.10.26 19:19:30.964
+\# Memory report: Maximum memory size now 934 MB at UTC 2022.10.26 19:19:40.965
+\# Memory report: Maximum memory size now 957 MB at UTC 2022.10.26 19:19:50.965
+\a hiSetCurrentWindow(window(10))
+\# Current Window: window(10)
+\r t
+\# Memory report: Maximum memory size now 938 MB at UTC 2022.10.26 19:21:10.965
+\a hiSetCurrentWindow(window(3))
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a hiZoomInAtMouse()
+\i -1.8125:-0.0625
+\r t
+\a hiZoomInAtMouse()
+\i -1.8125:-0.0625
+\r t
+\a hiZoomOutAtMouse()
+\i -1.875:-0.0625
+\r t
+\a hiZoomOutAtMouse()
+\i -1.875:0
+\r t
+\a hiZoomOutAtMouse()
+\i -1.9375:0
+\r t
+\a hiZoomOutAtMouse()
+\i -1.9375:0.0625
+\r t
+\a hiZoomOutAtMouse()
+\i -1.9375:0.0625
+\r t
+\a hiZoomOutAtMouse()
+\i -1.875:0
+\r t
+\a hiZoomInAtMouse()
+\i -2.1875:1.5
+\r t
+\a hiZoomInAtMouse()
+\i -2.1875:1.5
+\r t
+\a hiZoomInAtMouse()
+\i -1.8125:1.3125
+\r t
+\a hiDynamicPanGrabbing()
+\i -2.5625:0.4375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.5625:0.4375
+\a hiZoomIn(window(3) list(-3.5625:-0.5625 -0.91875:1.25625))
+\r t
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i -2.5625:0.4375
+\r t
+\# Memory report: Maximum memory size now 969 MB at UTC 2022.10.26 19:21:20.965
+\# Memory report: Maximum memory size now 940 MB at UTC 2022.10.26 19:21:30.965
+\# Memory report: Maximum memory size now 966 MB at UTC 2022.10.26 19:21:50.965
+\# Available memory:            424 MB at UTC 2022.10.26 19:22:00.967
+\# Memory report: Maximum memory size now 1,006 MB at UTC 2022.10.26 19:22:00.967
+\# Available memory:            365 MB at UTC 2022.10.26 19:22:10.965
+\# Memory report: Maximum memory size now 946 MB at UTC 2022.10.26 19:22:10.965
+\# Available memory:            421 MB at UTC 2022.10.26 19:22:40.966
+\# Memory report: Maximum memory size now 1,002 MB at UTC 2022.10.26 19:22:40.966
+\# Available memory:            358 MB at UTC 2022.10.26 19:22:50.966
+\# Memory report: Maximum memory size now 940 MB at UTC 2022.10.26 19:22:50.966
+\# Available memory:            438 MB at UTC 2022.10.26 19:24:10.967
+\# Memory report: Maximum memory size now 1,020 MB at UTC 2022.10.26 19:24:10.967
+\# Available memory:            346 MB at UTC 2022.10.26 19:24:30.966
+\# Memory report: Maximum memory size now 928 MB at UTC 2022.10.26 19:24:30.966
+\# Memory report: Maximum memory size now 955 MB at UTC 2022.10.26 19:24:40.966
+\# Available memory:            380 MB at UTC 2022.10.26 19:25:30.965
+\# Available memory:            606 MB at UTC 2022.10.26 19:25:40.967
+\# Memory report: Maximum memory size now 1,188 MB at UTC 2022.10.26 19:25:40.967
+\# Available memory:            356 MB at UTC 2022.10.26 19:25:50.966
+\# Memory report: Maximum memory size now 938 MB at UTC 2022.10.26 19:25:50.966
+\# Memory report: Maximum memory size now 958 MB at UTC 2022.10.26 19:26:10.966
+\# Available memory:            404 MB at UTC 2022.10.26 19:26:50.965
+\# Memory report: Maximum memory size now 985 MB at UTC 2022.10.26 19:26:50.965
+\# Memory report: Maximum memory size now 1,016 MB at UTC 2022.10.26 19:27:00.965
+\# Available memory:            445 MB at UTC 2022.10.26 19:27:20.965
+\# Available memory:            368 MB at UTC 2022.10.26 19:27:50.965
+\# Memory report: Maximum memory size now 950 MB at UTC 2022.10.26 19:27:50.965
+\# Memory report: Maximum memory size now 928 MB at UTC 2022.10.26 19:28:20.965
+\# Memory report: Maximum memory size now 977 MB at UTC 2022.10.26 19:28:40.965
+\# Memory report: Maximum memory size now 946 MB at UTC 2022.10.26 19:28:50.964
+\# Memory report: Maximum memory size now 972 MB at UTC 2022.10.26 19:29:00.965
+\# Memory report: Maximum memory size now 946 MB at UTC 2022.10.26 19:30:10.965
+\# Memory report: Maximum memory size now 924 MB at UTC 2022.10.26 19:30:40.964
+\# Memory report: Maximum memory size now 955 MB at UTC 2022.10.26 19:30:50.964
+\# Memory report: Maximum memory size now 925 MB at UTC 2022.10.26 19:31:50.965
+\# Memory report: Maximum memory size now 958 MB at UTC 2022.10.26 19:32:00.967
+\# Available memory:            435 MB at UTC 2022.10.26 19:32:10.965
+\# Memory report: Maximum memory size now 1,017 MB at UTC 2022.10.26 19:32:10.965
+\# Memory report: Maximum memory size now 990 MB at UTC 2022.10.26 19:33:00.967
+\# Available memory:            500 MB at UTC 2022.10.26 19:33:30.966
+\# Memory report: Maximum memory size now 1,081 MB at UTC 2022.10.26 19:33:30.966
+\# Memory report: Maximum memory size now 1,060 MB at UTC 2022.10.26 19:34:40.965
+\# Available memory:            453 MB at UTC 2022.10.26 19:36:00.965
+\# Memory report: Maximum memory size now 1,035 MB at UTC 2022.10.26 19:36:00.965
+\# Available memory:            552 MB at UTC 2022.10.26 19:36:20.966
+\# Memory report: Maximum memory size now 1,134 MB at UTC 2022.10.26 19:36:20.966
+\# Memory report: Maximum memory size now 1,103 MB at UTC 2022.10.26 19:37:20.965
+\# Available memory:            499 MB at UTC 2022.10.26 19:38:10.965
+\# Memory report: Maximum memory size now 1,081 MB at UTC 2022.10.26 19:38:10.965
+\# Memory report: Maximum memory size now 1,039 MB at UTC 2022.10.26 19:39:00.965
+\# Available memory:            439 MB at UTC 2022.10.26 19:41:50.964
+\a hiZoomInAtMouse()
+\i -1.5625:0.5625
+\r t
+\a schSingleSelectPt()
+\i -2.25:1.1875
+\r t
+\a schHiDelete()
+\r t
+\# Available memory:            361 MB at UTC 2022.10.26 19:42:20.037
+\# Memory report: Maximum memory size now 943 MB at UTC 2022.10.26 19:42:20.037
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\a hiZoomInAtMouse()
+\i -2.1875:0.5
+\r t
+\a hiZoomOutAtMouse()
+\i -2:0.6875
+\r t
+\a hiZoomOutAtMouse()
+\i -2.0625:0.625
+\r t
+\a hiDynamicPanGrabbing()
+\i -2.29375:1.2
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.29375:1.2
+\a hiZoomIn(window(3) list(-4.33125:-1.46875 0.99375:2.19375))
+\r t
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i -1.9375:0.9375
+\r t
+\a hiDynamicPanGrabbing()
+\i -2.4:1.09375
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.40625:1.09375
+\a hiZoomIn(window(3) list(-3.61875:-0.525 -0.94375:1.3125))
+\r t
+\r t
+\r t
+\# Available memory:            395 MB at UTC 2022.10.26 19:42:29.964
+\# Memory report: Maximum memory size now 977 MB at UTC 2022.10.26 19:42:29.965
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schiCreateInstBrowseButtonCB(schCreateInstForm)
+\r t
+\# Available memory:            446 MB at UTC 2022.10.26 19:42:39.965
+\# Memory report: Maximum memory size now 1,028 MB at UTC 2022.10.26 19:42:39.965
+\i ddsServSelect("analogLib" "vdc" "symbol")
+\i ddsServSelect("analogLib" "" "")
+\i ddsServSelect("analogLib" "vdc" "symbol")
+\a schCreateInstForm->viewName->value="symbol"
+\r "symbol"
+\# Memory report: Maximum memory size now 1,004 MB at UTC 2022.10.26 19:42:49.801
+\a schCmdOption()
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i -2.24375:0.9375
+\r t
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i -2.25:0.875
+\r t
+\a hiZoomOutAtMouse()
+\i -2.25:0.875
+\r t
+\a schHiMove()
+\p > 
+\a mouseAddPt(t)
+\i -2.19375:1.11875
+\r t
+\a schCmdOption()
+\r t
+\a mouseAddPt(t)
+\i -2.80625:1.0625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCopy()
+\p > 
+\a mouseAddPt(t)
+\i -3.19375:0.39375
+\r t
+\# Available memory:            380 MB at UTC 2022.10.26 19:43:39.807
+\# Memory report: Maximum memory size now 962 MB at UTC 2022.10.26 19:43:39.807
+\a mouseAddPt(t)
+\i -3.19375:0.9875
+\r t
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i -2.63125:1.00625
+\r t
+\a mouseAddPt(t)
+\i -2.24375:0.9875
+\r t
+\a mouseAddPt(t)
+\i -2.25625:0.90625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -2.8125:1
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\# Memory report: Maximum memory size now 929 MB at UTC 2022.10.26 19:43:59.966
+\# Memory report: Maximum memory size now 947 MB at UTC 2022.10.26 19:44:09.965
+\a schObjPropForm->vdc->value="0.9"
+\r "0.9"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schHiMove()
+\p > 
+\a geSingleSelectBox()
+\i -3.3125:1.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.5:0.8125
+\r t
+\r t
+\a mouseAddPt(t)
+\i -2.8125:1
+\r t
+\# Memory report: Maximum memory size now 966 MB at UTC 2022.10.26 19:44:29.965
+\a mouseAddPt(t)
+\i -2.825:1.11875
+\r t
+\a mouseAddPt(t)
+\i -2.43125:0.9875
+\r t
+\a mouseAddPt(t)
+\i -2.45625:1.14375
+\r t
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt(t)
+\i -2.25:1.09375
+\r t
+\a mouseAddPt(t)
+\i -2.23125:0.9375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i -2:0.25
+\r t
+\a hiZoomInAtMouse()
+\i -1.4375:0.1875
+\r t
+\a _schHiSaveAs()
+\p > 
+\a hiiSetCurrentForm('_schHiSaveAsForm)
+\r t
+\a hiFormDone(_schHiSaveAsForm)
+\r t
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\r t
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a schHiOpenCellView()
+\p > 
+\a hiiSetCurrentForm('deOpenForm)
+\r t
+\a _deCellChoiceCB()
+\r "schematic"
+\a hiFormCancel(deOpenForm)
+\r t
+\r nil
+\# Memory report: Maximum memory size now 936 MB at UTC 2022.10.26 19:45:09.965
+\# Memory report: Maximum memory size now 963 MB at UTC 2022.10.26 19:45:39.964
+\# Memory report: Maximum memory size now 983 MB at UTC 2022.10.26 19:46:59.966
+\# Memory report: Maximum memory size now 960 MB at UTC 2022.10.26 19:47:59.965
+\# Memory report: Maximum memory size now 983 MB at UTC 2022.10.26 19:48:19.965
+\# Memory report: Maximum memory size now 930 MB at UTC 2022.10.26 19:48:49.965
+\# Memory report: Maximum memory size now 950 MB at UTC 2022.10.26 19:48:59.965
+\# Available memory:            516 MB at UTC 2022.10.26 19:50:09.964
+\# Memory report: Maximum memory size now 1,097 MB at UTC 2022.10.26 19:50:09.964
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "buffer schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\a _treeNavExpand(dwindow('treeAssistant2) " Inst")
+\r t
+\# Current Window: window(3) Window cellview: ELEC402:buffer:schematic  Application: analogArtist-Schematic
+\o INFO (SCH-1181): "ELEC402 buffer schematic" saved.
+\r t
+\a _deUpdateMenu('schematicTools 3)
+\r t
+\a schHiNewCellView()
+\p > 
+\a hiiSetCurrentForm('deNewForm)
+\r t
+\a hiFormCancel(deNewForm)
+\r t
+\r nil
+\a hiExportImageDialog(getCurrentWindow())
+\a nrSetWindowVisibility(ExportImageDialog "show")
+\r t
+\r t
+\a nrSetCurrentWindow(ExportImageDialog)
+\r t
+\a nrResizeWindow(ExportImageDialog list(233 58 517 527))
+\r t
+\# Memory report: Maximum memory size now 1,066 MB at UTC 2022.10.26 19:50:59.964
+\a ExportImageDialog->fileName->value = "Q2_buffer"
+\r "Q2_buffer"
+\a ExportImageDialog->fileName->value = "Q2_buffer.png"
+\r "Q2_buffer.png"
+\a ExportImageDialog->copy->value = t
+\r t
+\a hiExportImageDialog(getCurrentWindow())
+\r t
+\a nrSetCurrentWindow(ExportImageDialog)
+\r t
+\a nrResizeWindow(ExportImageDialog list(236 87 517 527))
+\r t
+\a ExportImageDialog->save->value = t
+\r t
+\# Available memory:            460 MB at UTC 2022.10.26 19:52:09.965
+\# Memory report: Maximum memory size now 1,042 MB at UTC 2022.10.26 19:52:09.965
+\# Memory report: Maximum memory size now 1,018 MB at UTC 2022.10.26 19:52:39.965
+\# Available memory:            418 MB at UTC 2022.10.26 19:53:39.965
+\# Available memory:            515 MB at UTC 2022.10.26 19:55:19.965
+\# Memory report: Maximum memory size now 1,096 MB at UTC 2022.10.26 19:55:19.965
+\# Memory report: Maximum memory size now 1,053 MB at UTC 2022.10.26 19:56:49.965
+\# Memory report: Maximum memory size now 1,082 MB at UTC 2022.10.26 19:56:59.965
+\# Available memory:            443 MB at UTC 2022.10.26 20:00:19.964
+\# Memory report: Maximum memory size now 1,025 MB at UTC 2022.10.26 20:00:19.964
+\# Available memory:            401 MB at UTC 2022.10.26 20:00:29.964
+\# Memory report: Maximum memory size now 983 MB at UTC 2022.10.26 20:00:29.964
+\# Available memory:            351 MB at UTC 2022.10.26 20:00:39.965
+\# Memory report: Maximum memory size now 933 MB at UTC 2022.10.26 20:00:39.965
+\# Available memory:            691 MB at UTC 2022.10.26 20:00:49.964
+\# Memory report: Maximum memory size now 1,273 MB at UTC 2022.10.26 20:00:49.964
+\# Memory report: Maximum memory size now 1,236 MB at UTC 2022.10.26 20:01:09.964
+\# Available memory:            584 MB at UTC 2022.10.26 20:01:19.964
+\# Memory report: Maximum memory size now 1,166 MB at UTC 2022.10.26 20:01:19.964
+\# Memory report: Maximum memory size now 1,198 MB at UTC 2022.10.26 20:01:29.965
+\# Available memory:            658 MB at UTC 2022.10.26 20:01:39.965
+\# Memory report: Maximum memory size now 1,240 MB at UTC 2022.10.26 20:01:39.965
+\# Available memory:            592 MB at UTC 2022.10.26 20:01:59.965
+\# Memory report: Maximum memory size now 1,174 MB at UTC 2022.10.26 20:01:59.965
+\# Available memory:            365 MB at UTC 2022.10.26 20:02:09.964
+\# Memory report: Maximum memory size now 947 MB at UTC 2022.10.26 20:02:09.964
+\# Available memory:            605 MB at UTC 2022.10.26 20:02:19.964
+\# Memory report: Maximum memory size now 1,187 MB at UTC 2022.10.26 20:02:19.965
+\# Available memory:            498 MB at UTC 2022.10.26 20:02:29.965
+\# Memory report: Maximum memory size now 1,080 MB at UTC 2022.10.26 20:02:29.965
+\# Available memory:            373 MB at UTC 2022.10.26 20:02:49.964
+\# Memory report: Maximum memory size now 954 MB at UTC 2022.10.26 20:02:49.964
+\# Available memory:            502 MB at UTC 2022.10.26 20:03:09.965
+\# Memory report: Maximum memory size now 1,084 MB at UTC 2022.10.26 20:03:09.965
+\# Memory report: Maximum memory size now 1,051 MB at UTC 2022.10.26 20:03:19.964
+\# Available memory:            407 MB at UTC 2022.10.26 20:03:29.965
+\# Memory report: Maximum memory size now 989 MB at UTC 2022.10.26 20:03:29.965
+\# Available memory:            361 MB at UTC 2022.10.26 20:03:59.965
+\# Memory report: Maximum memory size now 943 MB at UTC 2022.10.26 20:03:59.965
+\# Available memory:            587 MB at UTC 2022.10.26 20:04:09.966
+\# Memory report: Maximum memory size now 1,169 MB at UTC 2022.10.26 20:04:09.966
+\# Memory report: Maximum memory size now 1,139 MB at UTC 2022.10.26 20:04:19.964
+\# Available memory:            522 MB at UTC 2022.10.26 20:04:39.965
+\# Memory report: Maximum memory size now 1,104 MB at UTC 2022.10.26 20:04:39.965
+\# Available memory:            363 MB at UTC 2022.10.26 20:05:19.965
+\# Memory report: Maximum memory size now 945 MB at UTC 2022.10.26 20:05:19.965
+\# Available memory:            415 MB at UTC 2022.10.26 20:05:29.965
+\# Memory report: Maximum memory size now 996 MB at UTC 2022.10.26 20:05:29.965
+\# Available memory:            368 MB at UTC 2022.10.26 20:05:39.965
+\# Memory report: Maximum memory size now 950 MB at UTC 2022.10.26 20:05:39.965
+\# Memory report: Maximum memory size now 970 MB at UTC 2022.10.26 20:06:29.965
+\# Available memory:            435 MB at UTC 2022.10.26 20:06:39.964
+\# Memory report: Maximum memory size now 1,017 MB at UTC 2022.10.26 20:06:39.964
+\# Available memory:            369 MB at UTC 2022.10.26 20:06:49.964
+\# Memory report: Maximum memory size now 951 MB at UTC 2022.10.26 20:06:49.964
+\# Memory report: Maximum memory size now 983 MB at UTC 2022.10.26 20:12:29.964
+\# Available memory:            448 MB at UTC 2022.10.26 20:12:49.964
+\# Memory report: Maximum memory size now 1,030 MB at UTC 2022.10.26 20:12:49.964
+\# Memory report: Maximum memory size now 1,009 MB at UTC 2022.10.26 20:13:39.965
+\# Available memory:            507 MB at UTC 2022.10.26 20:13:49.965
+\# Memory report: Maximum memory size now 1,089 MB at UTC 2022.10.26 20:13:49.965
+\# Available memory:            455 MB at UTC 2022.10.26 20:14:09.965
+\# Memory report: Maximum memory size now 1,036 MB at UTC 2022.10.26 20:14:09.965
+\# Memory report: Maximum memory size now 1,012 MB at UTC 2022.10.26 20:14:49.965
+\# Available memory:            410 MB at UTC 2022.10.26 20:15:29.966
+\# Memory report: Maximum memory size now 991 MB at UTC 2022.10.26 20:15:29.966
+\# Memory report: Maximum memory size now 955 MB at UTC 2022.10.26 20:15:59.967
+\# Memory report: Maximum memory size now 992 MB at UTC 2022.10.26 20:16:09.965
+\# Memory report: Maximum memory size now 967 MB at UTC 2022.10.26 20:16:49.964
+\# Memory report: Maximum memory size now 990 MB at UTC 2022.10.26 20:17:09.964
+\# Memory report: Maximum memory size now 968 MB at UTC 2022.10.26 20:18:09.966
+\# Available memory:            372 MB at UTC 2022.10.26 20:19:59.964
+\# Memory report: Maximum memory size now 948 MB at UTC 2022.10.26 20:20:29.965

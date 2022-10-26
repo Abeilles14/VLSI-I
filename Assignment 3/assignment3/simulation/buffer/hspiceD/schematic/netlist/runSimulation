@@ -1,0 +1,2 @@
+#!/bin/csh -f
+hspice input.ckt  >& ../psf/hspice.out

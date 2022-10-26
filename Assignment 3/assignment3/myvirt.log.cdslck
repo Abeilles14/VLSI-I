@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      abeilles
+HostName                       ssh-soc.ece.ubc.ca
+ProcessIdentifier              62694
+ProcessCreationTime_UTC        1666804204
+ProcessCreationTime_Readable   Wed Oct 26 10:10:04 2022 PDT
+AppIdentifier                  /CMC/tools/cadence/IC06.18.170_lnx86/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /ubc/ece/home/ugrads/a/abeilles/elec402/assignment3/myvirt.log
+TimeEditLocked                 Wed Oct 26 10:10:05 2022 PDT
