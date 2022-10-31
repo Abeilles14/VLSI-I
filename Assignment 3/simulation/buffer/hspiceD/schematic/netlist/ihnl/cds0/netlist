@@ -1,0 +1,8 @@
+
+** Library name: ELEC402
+** Cell name: buffer
+** View name: schematic
+m0 vdd! in out vdd! nfet AD=608e-18 AS=608e-18 PD=168e-9 PS=168e-9 M=2
+m1 0 in out 0 pfet AD=608e-18 AS=608e-18 PD=168e-9 PS=168e-9 M=2
+c0 out 0 1e-15
+v0 in 0 PWL 0 0 500e-12 0 1e-9 900e-3 1.5e-9 0 TD=0

@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Oct 26 11:33:46 2022
+** Design library name: ELEC402
+** Design cell name: buffer
+** Design view name: schematic
+.GLOBAL vdd!

@@ -1,0 +1,1 @@
+{"hierarchy":{"top_level":1,"1":{"insts":{"m1":3,"v0":5,"m0":2,"c0":4}}},"modelMap":{"vsrc":[5],"cap":[4],"nfet":[2],"pfet":[3]},"cellviews":[["ELEC402","buffer","schematic"],["NCSU_TechLib_FreePDK15","nmos","hspiceD"],["NCSU_TechLib_FreePDK15","pmos","hspiceD"],["analogLib","cap","hspiceD"],["analogLib","vpwl","hspiceD"]]}

@@ -1,8 +1,0 @@
-DEFINE analogLib $CDS_HOME/tools/dfII/etc/cdslib/artist/analogLib
-DEFINE US_8ths   $CDS_HOME/tools/dfII/etc/cdslib/sheets/US_8ths
-DEFINE basic     $CDS_HOME/tools/dfII/etc/cdslib/basic
-DEFINE cdsDefTechLib $CDS_HOME/tools/dfII/etc/cdsDefTechLib
-DEFINE NCSU_TechLib_FreePDK15  $PDK_DIR/cdslib/NCSU_TechLib_FreePDK15
-### the rest are your libraries
-#Removed by ddDeleteObj: DEFINE buffer /ubc/ece/home/ugrads/a/abeilles/elec402/assignment3/buffer
-DEFINE ELEC402 /ubc/ece/home/ugrads/a/abeilles/elec402/assignment3/ELEC402

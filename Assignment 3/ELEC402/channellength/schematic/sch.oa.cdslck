@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      abeilles
+HostName                       ssh-soc.ece.ubc.ca
+ProcessIdentifier              113225
+ProcessCreationTime_UTC        1666847790
+ProcessCreationTime_Readable   Wed Oct 26 22:16:30 2022 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /ubc/ece/home/ugrads/a/abeilles/elec402/assignment3/ELEC402/channellength/schematic/sch.oa.cdslck
+TimeEditLocked                 Sun Oct 30 20:34:11 2022 PDT
