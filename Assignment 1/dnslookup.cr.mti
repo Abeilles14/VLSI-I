@@ -12,6 +12,13 @@ Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
 Top level modules:
 	DomainIP
 
+} {} {}} {C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/DNSLookup.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module DNSLookup
+
+Top level modules:
+	DNSLookup
+
 } {} {}} {C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/TLDAddr.sv}
 Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
 -- Compiling module TLDAddr

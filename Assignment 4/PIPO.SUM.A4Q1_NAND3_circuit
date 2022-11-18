@@ -1,0 +1,79 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+          : sub-version  IC6.1.8-64b.500.17 
+Started at: 17-Nov-2022  13:18:32
+User Name : abeilles
+Host Name : ssh-soc.ece.ubc.ca
+Directory : /ubc/ece/home/ugrads/a/abeilles/elec402/assignment4
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+NCSU_TechLib_FreePDK15/nmos_pcell/layout                        0        0       0        7      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK15/pmos_pcell/layout                        0        0       0        8      0      0         0      0             0      0     0     0       0       
+NCSU_TechLib_FreePDK15/M1A_AIL2/layout                          0        0       0        3      0      0         0      0             0      0     0     0       0       
+ELEC402/A4Q1_NAND3_circuit/layout                               15       0       0        28     0      0         0      6             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+NCSU_TechLib_FreePDK15/nmos_pcell/layout                        0        0          0          0          0          0     0        0         0         0        
+NCSU_TechLib_FreePDK15/pmos_pcell/layout                        0        0          0          0          0          0     0        0         0         0        
+NCSU_TechLib_FreePDK15/M1A_AIL2/layout                          0        0          0          0          0          0     0        0         0         0        
+ELEC402/A4Q1_NAND3_circuit/layout                               0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+NW              drawing         0       0         0        1        0        0        0             0    0   0   0     0      0      
+M1A             drawing         15      0         0        17       0        0        6             0    0   0   0     0      0      
+GIL             drawing         13      0         0        3        0        0        0             0    0   0   0     0      0      
+V0              drawing         14      0         0        1        0        0        0             0    0   0   0     0      0      
+AIL1            drawing         11      0         0        8        0        0        0             0    0   0   0     0      0      
+AIL2            drawing         12      0         0        1        0        0        0             0    0   0   0     0      0      
+PIM             drawing         6       0         0        2        0        0        0             0    0   0   0     0      0      
+NIM             drawing         5       0         0        2        0        0        0             0    0   0   0     0      0      
+GATEB           drawing         8       0         0        4        0        0        0             0    0   0   0     0      0      
+GATEA           drawing         7       0         0        5        0        0        0             0    0   0   0     0      0      
+ACT             drawing         1       0         0        2        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		15
+	Array Instances:		0
+	Polygons:			0
+	Paths:				0
+	Rectangles:			46
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			0
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				0
+	TextDisplay:		6
+	Cells:				4
+Design Libraries: 
+
+DEFINE NCSU_TechLib_FreePDK15	/ubc/ece/data/cmc2/kits/ncsu_pdk/FreePDK15/cdslib/NCSU_TechLib_FreePDK15
+DEFINE ELEC402	/ubc/ece/home/ugrads/a/abeilles/elec402/assignment3/ELEC402

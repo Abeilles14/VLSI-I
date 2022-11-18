@@ -1,0 +1,42 @@
+// Generated for: spectre
+// Generated on: Nov 17 13:38:43 2022
+// Design library name: ELEC402
+// Design cell name: A4Q2_testbench
+// Design view name: schematic
+simulator lang=spectre
+global 0
+
+// Library name: ELEC402
+// Cell name: A4Q2_circuit
+// View name: schematic
+subckt A4Q2_circuit A B C D GND VDD Y
+    M3 (net1 B VDD VDD) pfet w=480n l=120n as=6.08e-16 ad=6.08e-16 ps=168n pd=168n m=2 degradation=no
+    M2 (Y A net1 VDD) pfet w=480n l=120n as=6.08e-16 ad=6.08e-16 ps=168n pd=168n m=2 degradation=no
+    M1 (Y C VDD VDD) pfet w=240n l=120n as=6.08e-16 ad=6.08e-16 ps=168n pd=168n m=2 degradation=no
+    M0 (Y D VDD VDD) pfet w=240n l=120n as=6.08e-16 ad=6.08e-16 ps=168n pd=168n m=2 degradation=no
+    M7 (net3 D GND GND) nfet w=360n l=120n as=6.08e-16 ad=6.08e-16 ps=168n pd=168n m=2 degradation=no
+    M6 (net2 C net3 GND) nfet w=360n l=120n as=6.08e-16 ad=6.08e-16 ps=168n pd=168n m=2 degradation=no
+    M5 (Y A net2 GND) nfet w=360n l=120n as=6.08e-16 ad=6.08e-16 ps=168n pd=168n m=2 degradation=no
+    M4 (Y B net2 GND) nfet w=360n l=120n as=6.08e-16 ad=6.08e-16 ps=168n pd=168n m=2 degradation=no
+ends A4Q2_circuit
+// End of subcircuit definition.
+
+// Library name: ELEC402
+// Cell name: A4Q2_testbench
+// View name: schematic
+I8 (net4 0 net4 D 0 net1 OUT) A4Q2_circuit
+C0 (OUT 0) capacitor c=10f
+V1 (net4 0) vsource dc=1 type=dc
+V0 (net1 0) vsource dc=1 type=dc
+V2 (D 0) vsource type=pulse val0=0 val1=1 period=1n delay=0 rise=10p fall=10p width=500p
+simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

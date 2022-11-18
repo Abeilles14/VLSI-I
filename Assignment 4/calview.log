@@ -1,0 +1,16 @@
+//
+//  CalibreView Settings:
+//	  Netlist File: 
+//	  Output Library: ELEC402
+//	  Schematic Library: ELEC402
+//	  Cellmap File: ./calview.cellmap
+//	  Log File: ./calview.log
+//	  Calibre View Name: calibre
+//	  Calibre View Type: maskLayout
+//	  Magnify Devices by: 1.000000
+//	  Magnify Parasitics by: 1.000000
+//	  Create Terminals: if matching terminal exists on symbol
+//	  Reset Properties: ("m=1")
+//	  Generate SPECTRE Netlist: off
+//
+Netlist file name field cannot be blank.Netlist file name field cannot be blank.Netlist file name field cannot be blank.Netlist file name field cannot be blank.

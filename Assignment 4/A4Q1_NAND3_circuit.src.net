@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ELEC402
+* Top Cell Name: A4Q1_NAND3_circuit
+* View Name:     schematic
+* Netlisted on:  Nov 17 11:01:49 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ELEC402
+* Cell Name:    A4Q1_NAND3_circuit
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT A4Q1_NAND3_circuit A B C GND VDD Y
+*.PININFO A:I B:I C:I Y:O GND:B VDD:B
+MM2 Y C VDD net1 PFET m=2
+MM1 Y B VDD net1 PFET m=2
+MM0 Y A VDD net1 PFET m=2
+MM5 net4 A GND net2 NFET m=2
+MM4 net3 B net4 net2 NFET m=2
+MM3 Y C net3 net2 NFET m=2
+.ENDS
+

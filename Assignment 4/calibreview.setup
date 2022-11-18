@@ -1,0 +1,20 @@
+calibre_view_netlist_file : 
+output_library : ELEC402
+schematic_library : ELEC402
+cell_name : 
+cellmap_file : /ubc/ece/home/ugrads/a/abeilles/elec402/assignment4/calview.cellmap
+calibreview_log_file : ./calview.log
+calibreview_name : calibre
+calibreview_type : schematic
+create_terminals : all
+preserve_device_case : off
+execute_callbacks : off
+suppress_notes : off
+reset_properties : (m=1)
+magnify_devices_by : 1.000000
+magnify_parasitics_by : 1.000000
+device_placement : layout_location
+parasitic_placement : arrayed
+show_parasitic_polygons : off
+open_calibreview : don't_open
+generate_spectre_netlist : off

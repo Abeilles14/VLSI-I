@@ -279,3 +279,5 @@ run
 # 
 # 
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Isabelle/Documents/UBC_ELEC/ELEC402/Assignments/VLSI-I/Assignment 1/wave.do}
+# End time: 17:14:41 on Oct 09,2022, Elapsed time: 6:27:19
+# Errors: 0, Warnings: 0
